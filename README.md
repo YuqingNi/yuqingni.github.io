@@ -28,6 +28,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - Sep. 2012 – Jun. 2016, **B.S.**, Control Science and Engineering, **Zhejiang University**, Hangzhou, P.R. China
 
 - Sep. 2012 - Jun. 2014, Mixed Honors Class, Chu Kochen Honors College, **Zhejiang University**, Hangzhou, P.R. China
+  - Prestigious Program gathering top 5% of students for their first two years of study at Zhejiang University
 
 - Jul. 2015 - Sep. 2015, **Visiting Student**, Chemical and Biomolecular Engineering, **University of California**, Los Angeles, USA
   - Supervisor: [Prof. Vasilios Manousiouthakis](https://samueli.ucla.edu/people/vasilios-manousiouthakis/)
