@@ -1,3 +1,6 @@
+title: [The title of your site]
+description: [A short description of your site's purpose]
+
 # Yuqing NI （倪雨青）
 
 PhD Candidate, Department of Electronic and Computer Engineering,
