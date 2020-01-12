@@ -34,7 +34,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
   - Supervisor: [Prof. Vasilios Manousiouthakis](https://samueli.ucla.edu/people/vasilios-manousiouthakis/)
 
 ## Awards
-- Oversea Research Award, Hong Kong University of Sci. & Tech., 2019
+- Overseas Research Award, Hong Kong University of Sci. & Tech., 2019
 - SENG Top RPG Award, Hong Kong University of Sci. & Tech., 2018
 - Research Travel Grant, Hong Kong University of Sci. & Tech., 2017
 - Second-Class Scholarship, Zhejiang University, 2014, 2015
