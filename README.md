@@ -4,7 +4,7 @@ PhD Candidate, Department of Electronic and Computer Engineering,
 
 Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 
-<img src="https://github.com/YuqingNi/yuqingni.github.io/blob/master/yuqing.jpg" width="200px" />
+<img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing.jpg" width="200px" />
 
 **Address**: Room 3126, HKUST, Clear Water Bay, Hong Kong
 
