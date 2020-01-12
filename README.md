@@ -1,5 +1,3 @@
-大标题  
-====
 # Yuqing NI （倪雨青）
 
 PhD Candidate, Department of Electronic and Computer Engineering,
