@@ -57,7 +57,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - **Yuqing Ni**, Alex S. Leong, Daniel E. Quevedo, Ling Shi, "Game-Theoretic Pricing and Selection with Fading Channels", *Asian Control Conference (ASCC)*, Gold Coast, Australia, 2017. [PDF](https://ieeexplore.ieee.org/document/8287296)
 
 ### Other Publications
-- **Yuqing Ni**, Ziyang Guo, Ling Shi, "Cyber-Physical Systems Security: A Control-Theoretic Approach", *Encyclopedia of Systems and Control*, Springer, 2019.
+- **Yuqing Ni**, Ziyang Guo, Ling Shi, "Cyber-Physical Systems Security: A Control-Theoretic Approach", *Encyclopedia of Systems and Control*, Springer, 2019. [PDF](https://link.springer.com/referenceworkentry/10.1007%2F978-1-4471-5102-9_100138-1)
 
 ## Academic Activities
 ### Invited Seminars
