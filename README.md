@@ -43,10 +43,10 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 
 ## Publications
 ### Submitted Papers
-- Ziyang Guo, **Yuqing Ni** (co-first authors), Wing Shing Wong, Ling Shi, "Time Synchronization Attack and Countermeasure for Multi-System Scheduling in Remote Estimation", *IEEE Transactions on Automatic Control*, conditionally accepted as Technical Note.
 - **Yuqing Ni**, Xiaoqiang, Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *Automatica*.
 
 ### Journal Papers
+- Ziyang Guo, **Yuqing Ni** (co-first authors), Wing Shing Wong, Ling Shi, "Time Synchronization Attack and Countermeasure for Multi-System Scheduling in Remote Estimation", *IEEE Transactions on Automatic Control*, accepted as Technical Note.
 - **Yuqing Ni**, Ziyang Guo, Yilin Mo, Ling Shi, "On the Performance Analysis of Reset Attack in Cyber-Physical Systems", *IEEE Transactions on Automatic Control*, vol. 65, issue 1, pp.419-425, 2020. [PDF](https://ieeexplore.ieee.org/document/8704930)
 - **Yuqing Ni**, Alex S. Leong, Daniel E. Quevedo, Ling Shi, "Pricing and Selection of Channels for Remote State Estimation Using a Stackelberg Game Framework", *IEEE Transactions on Signal and Information Processing over Networks*, vol. 5, issue 4, pp.657-668, 2019. [PDF](https://ieeexplore.ieee.org/document/8786167)
 
