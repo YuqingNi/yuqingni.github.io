@@ -74,6 +74,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - Control Theory and Technology
 
 ### Conference Review
-- European Control Conference
-- International Conference on Control, Decision and Information Technologies
+- IEEE Conference on Decision and Control (CDC)
+- European Control Conference (ECC)
+- International Conference on Control, Decision and Information Technologies (CoDIT)
 
