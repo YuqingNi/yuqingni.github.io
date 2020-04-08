@@ -65,7 +65,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - "On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors", 2019 Shanghai University-wide International Young Scholar Forum "Control Science and Engineering" Sub-forum -- ECUST "Information Technology" Young Scholar Forum, East China University of Science and Technology, Mar. 2019.
 
 ### Teaching Assistant
-- EESM 5730 Modern Control Systems Design, Fall 2017, Spring 2018, Spring 2019
+- EESM 5730 Modern Control Systems Design, Fall 2017, Spring 2018, Spring 2019, Spring 2020
 - ELEC 3200 System Modeling, Analysis and Control, Spring 2017, Fall 2017
 
 ### Journal Review
