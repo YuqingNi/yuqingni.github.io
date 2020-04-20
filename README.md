@@ -76,6 +76,8 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 
 ### Conference Review
 - IEEE Conference on Decision and Control (CDC)
+- IFAC World Congress
 - European Control Conference (ECC)
+- IEEE Conference on Control Technology and Applications (CCTA) 
 - International Conference on Control, Decision and Information Technologies (CoDIT)
 
