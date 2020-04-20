@@ -71,6 +71,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 ### Journal Review
 - Automatica
 - IEEE Transactions on Control of Network Systems
+- IEEE Transactions on Network Science and Engineering
 - Control Theory and Technology
 
 ### Conference Review
