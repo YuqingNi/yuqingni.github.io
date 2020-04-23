@@ -51,11 +51,10 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - **Yuqing Ni**, Alex S. Leong, Daniel E. Quevedo, Ling Shi, "Pricing and Selection of Channels for Remote State Estimation Using a Stackelberg Game Framework", *IEEE Transactions on Signal and Information Processing over Networks*, vol. 5, issue 4, pp.657-668, 2019. [PDF](https://ieeexplore.ieee.org/document/8786167)
 
 ### Conference Papers
-- Hanxiao Liu, **Yuqing Ni**, Lihua Xie, Karl Henrik Johansson, "An Optimal Linear Attack Strategy on Remote State Estimation", *IFAC World Congress*, Berlin, Germany, 2020.
-- **Yuqing Ni**, Kemi Ding, Yong Yang, Ling Shi, "On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors", *Chinese Control Conference (CCC)*, Guangzhou, China, 2019. [PDF](https://ieeexplore.ieee.org/document/8866367)
-- Kam Fai Elvis Tsang, **Yuqing Ni**, Cheuk Fung Raphael Wong, Ling Shi, "A Novel Warehouse Multi-Robot Automation System with Semi-Complete and Computationally Efficient Path Planning and Adaptive Genetic Task Allocation Algorithms", *International Conference on Control, Automation, Robotics and Vision (ICARCV)*, Singapore, 2018. [PDF](https://ieeexplore.ieee.org/document/8581092)
-
-[C1] **Yuqing Ni**, Alex S. Leong, Daniel E. Quevedo, Ling Shi, "Game-Theoretic Pricing and Selection with Fading Channels", *Asian Control Conference (ASCC)*, Gold Coast, Australia, 2017. [PDF](https://ieeexplore.ieee.org/document/8287296)
+- [C4] Hanxiao Liu, **Yuqing Ni**, Lihua Xie, Karl Henrik Johansson, "An Optimal Linear Attack Strategy on Remote State Estimation", *IFAC World Congress*, Berlin, Germany, 2020.
+- [C3] **Yuqing Ni**, Kemi Ding, Yong Yang, Ling Shi, "On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors", *Chinese Control Conference (CCC)*, Guangzhou, China, 2019. [PDF](https://ieeexplore.ieee.org/document/8866367)
+- [C2] Kam Fai Elvis Tsang, **Yuqing Ni**, Cheuk Fung Raphael Wong, Ling Shi, "A Novel Warehouse Multi-Robot Automation System with Semi-Complete and Computationally Efficient Path Planning and Adaptive Genetic Task Allocation Algorithms", *International Conference on Control, Automation, Robotics and Vision (ICARCV)*, Singapore, 2018. [PDF](https://ieeexplore.ieee.org/document/8581092)
+- [C1] **Yuqing Ni**, Alex S. Leong, Daniel E. Quevedo, Ling Shi, "Game-Theoretic Pricing and Selection with Fading Channels", *Asian Control Conference (ASCC)*, Gold Coast, Australia, 2017. [PDF](https://ieeexplore.ieee.org/document/8287296)
 
 ### Other Publications
 - **Yuqing Ni**, Ziyang Guo, Ling Shi, "Cyber-Physical Systems Security: A Control-Theoretic Approach", *Encyclopedia of Systems and Control*, Springer, 2019. [PDF](https://link.springer.com/referenceworkentry/10.1007%2F978-1-4471-5102-9_100138-1)
