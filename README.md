@@ -54,6 +54,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - Hanxiao Liu, **Yuqing Ni**, Lihua Xie, Karl Henrik Johansson, "An Optimal Linear Attack Strategy on Remote State Estimation", *IFAC World Congress*, Berlin, Germany, 2020.
 - **Yuqing Ni**, Kemi Ding, Yong Yang, Ling Shi, "On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors", *Chinese Control Conference (CCC)*, Guangzhou, China, 2019. [PDF](https://ieeexplore.ieee.org/document/8866367)
 - Kam Fai Elvis Tsang, **Yuqing Ni**, Cheuk Fung Raphael Wong, Ling Shi, "A Novel Warehouse Multi-Robot Automation System with Semi-Complete and Computationally Efficient Path Planning and Adaptive Genetic Task Allocation Algorithms", *International Conference on Control, Automation, Robotics and Vision (ICARCV)*, Singapore, 2018. [PDF](https://ieeexplore.ieee.org/document/8581092)
+
 [C1] **Yuqing Ni**, Alex S. Leong, Daniel E. Quevedo, Ling Shi, "Game-Theoretic Pricing and Selection with Fading Channels", *Asian Control Conference (ASCC)*, Gold Coast, Australia, 2017. [PDF](https://ieeexplore.ieee.org/document/8287296)
 
 ### Other Publications
