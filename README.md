@@ -43,6 +43,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 
 ## Publications
 ### Submitted Papers
+- **Yuqing Ni**, Junfeng, Wu, Ling Shi, "Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy", *IEEE Transactions on Information Forensics and Security*. 
 - **Yuqing Ni**, Xiaoqiang, Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *Automatica*.
 
 ### Journal Papers
