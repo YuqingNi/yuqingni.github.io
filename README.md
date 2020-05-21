@@ -25,7 +25,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - Apr. 2019 – Jun. 2019, **Visiting Student**, Electrical Engineering and Computer Science, **KTH Royal Institute of Technology**, Stockholm, Sweden
   - Supervisor: [Prof. Karl Henrik Johansson](https://people.kth.se/~kallej/)
 
-- Sep. 2012 – Jun. 2016, **B.S.**, Control Science and Engineering, **Zhejiang University**, Hangzhou, P.R. China
+- Sep. 2012 – Jun. 2016, **B.Eng.**, Control Science and Engineering, **Zhejiang University**, Hangzhou, P.R. China
 
 - Sep. 2012 - Jun. 2014, Mixed Honors Class, Chu Kochen Honors College, **Zhejiang University**, Hangzhou, P.R. China
   - Prestigious Program gathering top 5% of students for their first two years of study at Zhejiang University
