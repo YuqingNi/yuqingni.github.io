@@ -19,7 +19,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - Game theory
 
 ## Education
-- Sep. 2016 – Aug. 2020 (Expected), **PhD**, Department of Electronic and Computer Engineering, **Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
+- Sep. 2016 – July 2020 (Expected), **PhD**, Department of Electronic and Computer Engineering, **Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
   - Supervisor: [Prof. Ling Shi](https://eesling.home.ece.ust.hk/)
   
 - Apr. 2019 – Jun. 2019, **Visiting Student**, Electrical Engineering and Computer Science, **KTH Royal Institute of Technology**, Stockholm, Sweden
@@ -44,7 +44,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 ## Publications
 ### Submitted Papers
 - **Yuqing Ni**, Junfeng, Wu, Ling Shi, "Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy", *IEEE Transactions on Information Forensics and Security*. 
-- **Yuqing Ni**, Xiaoqiang, Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *Automatica*.
+- **Yuqing Ni**, Xiaoqiang, Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *IEEE Transactions on Control of Network Systems*.
 
 ### Journal Papers
 - [J3] Ziyang Guo, **Yuqing Ni** (co-first authors), Wing Shing Wong, Ling Shi, "Time Synchronization Attack and Countermeasure for Multi-System Scheduling in Remote Estimation", *IEEE Transactions on Automatic Control*, accepted as Technical Note. [PDF](https://ieeexplore.ieee.org/document/9099615)
