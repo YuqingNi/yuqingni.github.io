@@ -1,6 +1,6 @@
 # Yuqing NI （倪雨青）
 
-PhD Candidate, Department of Electronic and Computer Engineering,
+PhD, Department of Electronic and Computer Engineering,
 
 Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 
@@ -8,7 +8,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 
 **Address**: Room 3126, HKUST, Clear Water Bay, Hong Kong
 
-**Tel.**: +852 56045791
+**Tel.**: +86 18868120228
 
 **Email**: yniac@ece.ust.hk
 
@@ -19,7 +19,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - Game theory
 
 ## Education
-- Sep. 2016 – July 2020 (Expected), **PhD**, Department of Electronic and Computer Engineering, **Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
+- Sep. 2016 – Jul. 2020, **PhD**, Department of Electronic and Computer Engineering, **Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
   - Supervisor: [Prof. Ling Shi](https://eesling.home.ece.ust.hk/)
   
 - Apr. 2019 – Jun. 2019, **Visiting Student**, Electrical Engineering and Computer Science, **KTH Royal Institute of Technology**, Stockholm, Sweden
