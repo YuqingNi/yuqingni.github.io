@@ -62,6 +62,7 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 
 ## Academic Activities
 ### Invited Seminars
+- "Privacy- and Security-Aware Remote State Estimation", College of Control Science and Engineering, Zhejiang University, Aug. 2020.
 - "On the Performance Analysis of Reset Attack and Time Synchronization Attack in Cyber-Physical Systems", Department of Automation, Shanghai University, Oct. 2019.
 - "On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors", 2019 Shanghai University-wide International Young Scholar Forum "Control Science and Engineering" Sub-forum -- ECUST "Information Technology" Young Scholar Forum, East China University of Science and Technology, Mar. 2019.
 
