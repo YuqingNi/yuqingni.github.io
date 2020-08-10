@@ -18,20 +18,23 @@ Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
 - Optimal filtering
 - Game theory
 
+## Experience
+- Apr. 2019 – Jun. 2019, **Visiting Student**, Electrical Engineering and Computer Science, **KTH Royal Institute of Technology**, Stockholm, Sweden
+  - Supervisor: [Prof. Karl Henrik Johansson](https://people.kth.se/~kallej/)
+  
+- Jul. 2015 - Sep. 2015, **Visiting Student**, Chemical and Biomolecular Engineering, **University of California**, Los Angeles, USA
+  - Supervisor: [Prof. Vasilios Manousiouthakis](https://samueli.ucla.edu/people/vasilios-manousiouthakis/)
+
+
 ## Education
 - Sep. 2016 – Jul. 2020, **PhD**, Department of Electronic and Computer Engineering, **Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
   - Supervisor: [Prof. Ling Shi](https://eesling.home.ece.ust.hk/)
   
-- Apr. 2019 – Jun. 2019, **Visiting Student**, Electrical Engineering and Computer Science, **KTH Royal Institute of Technology**, Stockholm, Sweden
-  - Supervisor: [Prof. Karl Henrik Johansson](https://people.kth.se/~kallej/)
-
-- Sep. 2012 – Jun. 2016, **B.Eng.**, Control Science and Engineering, **Zhejiang University**, Hangzhou, P.R. China
+- Sep. 2012 – Jun. 2016, **B.Eng.**, College of Control Science and Engineering, **Zhejiang University**, Hangzhou, P.R. China
 
 - Sep. 2012 - Jun. 2014, Mixed Honors Class, Chu Kochen Honors College, **Zhejiang University**, Hangzhou, P.R. China
   - Prestigious Program gathering top 5% of students for their first two years of study at Zhejiang University
 
-- Jul. 2015 - Sep. 2015, **Visiting Student**, Chemical and Biomolecular Engineering, **University of California**, Los Angeles, USA
-  - Supervisor: [Prof. Vasilios Manousiouthakis](https://samueli.ucla.edu/people/vasilios-manousiouthakis/)
 
 ## Awards
 - Overseas Research Award, Hong Kong University of Sci. & Tech., 2019
