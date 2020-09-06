@@ -1,12 +1,10 @@
 # Yuqing NI （倪雨青）
 
-PhD, Department of Electronic and Computer Engineering,
+Researcher with the [Algorithm Innovation Lab, Huawei Cloud BU (华为云算法创新Lab)](https://www.huaweicloud.com/lab/algorithm/home.html), Hangzhou, China
 
-Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
+PhD in Department of [Electronic and Computer Engineering, Hong Kong University of Science and Technogloy](https://www.ece.usthk.cn/)
 
 <img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing1.jpg" width="250px" />
-
-**Address**: Room 3126, HKUST, Clear Water Bay, Hong Kong
 
 **Tel.**: +86 18868120228
 
