@@ -2,7 +2,7 @@
 
 Researcher with the [Algorithm Innovation Lab, Huawei Cloud BU (华为云算法创新Lab)](https://www.huaweicloud.com/lab/algorithm/home.html), Hangzhou, China
 
-PhD in Department of [Electronic and Computer Engineering, Hong Kong University of Science and Technogloy](https://www.ece.usthk.cn/)
+PhD in Department of [Electronic and Computer Engineering](https://www.ece.usthk.cn/), Hong Kong University of Science and Technogloy
 
 <img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing1.jpg" width="250px" />
 
