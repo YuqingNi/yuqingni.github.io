@@ -44,8 +44,8 @@
 
 ## Publications
 ### Submitted Papers
+- **Yuqing Ni**, Xiaoqiang Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *IEEE Transactions on Control of Network Systems*, conditionally accepted.
 - **Yuqing Ni**, Junfeng Wu, Ling Shi, "Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy", *IEEE Transactions on Information Forensics and Security*. 
-- **Yuqing Ni**, Xiaoqiang Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *IEEE Transactions on Control of Network Systems*.
 
 ### Journal Papers
 - [J3] Ziyang Guo, **Yuqing Ni** (co-first authors), Wing Shing Wong, Ling Shi, "Time Synchronization Attack and Countermeasure for Multi-System Scheduling in Remote Estimation", *IEEE Transactions on Automatic Control*, accepted as Technical Note. [PDF](https://ieeexplore.ieee.org/document/9099615)
