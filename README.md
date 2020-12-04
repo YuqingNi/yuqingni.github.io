@@ -45,7 +45,7 @@
 ## Publications
 ### Submitted Papers
 - **Yuqing Ni**, Xiaoqiang Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *IEEE Transactions on Control of Network Systems*, conditionally accepted.
-- **Yuqing Ni**, Junfeng Wu, Li Li, Ling Shi, "Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy", *IEEE Transactions on Information Forensics and Security*, accepted with Mandatory Minor Revisions. 
+- **Yuqing Ni**, Junfeng Wu, Li Li, Ling Shi, "Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy", *IEEE Transactions on Information Forensics and Security*, accepted with mandatory minor revisions. 
 - Hanxiao Liu, **Yuqing Ni**, Lihua Xie, Karl Henrik Johansson, "How Vulnerable is Innovation-based Remote State Estimation: Fundamental Limits under Linear Attacks", *Automatica*.
 
 ### Journal Papers
