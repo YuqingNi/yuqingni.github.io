@@ -8,7 +8,7 @@
 
 **Tel.**: +86 18868120228
 
-**Email**: yniac@ece.ust.hk
+**Email**: yniac@connect.ust.hk
 
 
 ## Research Interest
