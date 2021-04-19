@@ -1,6 +1,6 @@
 # Yuqing NI （倪雨青）
 
-**Researcher** with the **Algorithm Innovation Lab, Huawei Cloud BU** ([华为云算法创新Lab](https://www.huaweicloud.com/lab/algorithm/home.html)), Hangzhou, P.R. China
+**Senior Engineer** with the **Algorithm Innovation Lab, Huawei Cloud BU** ([华为云算法创新Lab](https://www.huaweicloud.com/lab/algorithm/home.html)), Hangzhou, P.R. China
 
 **PhD** in **[Department of Electronic and Computer Engineering](https://www.ece.usthk.cn/), Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
 
@@ -17,6 +17,8 @@
 - Game theory
 
 ## Experience
+- Aug. 2020 – Present, **Senior engineer**, Algorithm Innovation Lab, **Huawei Cloud BU**, Hangzhou, P.R. China
+
 - Apr. 2019 – Jun. 2019, **Visiting Student**, Electrical Engineering and Computer Science, **KTH Royal Institute of Technology**, Stockholm, Sweden
   - Supervisor: [Prof. Karl Henrik Johansson](https://people.kth.se/~kallej/)
   
