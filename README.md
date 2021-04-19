@@ -17,7 +17,7 @@
 - Game theory
 
 ## Experience
-- Aug. 2020 – Present, **Senior engineer**, Algorithm Innovation Lab, **Huawei Cloud BU**, Hangzhou, P.R. China
+- Aug. 2020 – Present, **Senior Engineer**, Algorithm Innovation Lab, **Huawei Cloud BU**, Hangzhou, P.R. China
 
 - Apr. 2019 – Jun. 2019, **Visiting Student**, Electrical Engineering and Computer Science, **KTH Royal Institute of Technology**, Stockholm, Sweden
   - Supervisor: [Prof. Karl Henrik Johansson](https://people.kth.se/~kallej/)
