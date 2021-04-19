@@ -29,6 +29,7 @@
 ## Education
 - Sep. 2016 – Jul. 2020, **PhD**, Department of Electronic and Computer Engineering, **Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
   - Supervisor: [Prof. Ling Shi](https://eesling.home.ece.ust.hk/)
+  - PhD Thesis Title: Privacy- and Security-Aware Remote State Estimation
   
 - Sep. 2012 – Jun. 2016, **B.Eng.**, College of Control Science and Engineering, **Zhejiang University**, Hangzhou, P.R. China
 
