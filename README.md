@@ -50,7 +50,7 @@
 - Hanxiao Liu, **Yuqing Ni**, Lihua Xie, Karl Henrik Johansson, "How Vulnerable is Innovation-based Remote State Estimation: Fundamental Limits under Linear Attacks", *Automatica*, provisionally accepted as Regular Paper.
 
 ### Journal Papers
-- [J5] **Yuqing Ni**, Xiaoqiang Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *IEEE Transactions on Control of Network Systems*, accepted.
+- [J5] **Yuqing Ni**, Xiaoqiang Ren, Subhrakanti Dey, Ling Shi, "Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework", *IEEE Transactions on Control of Network Systems*, accepted. [PDF](https://ieeexplore.ieee.org/document/9424442)
 - [J4] **Yuqing Ni**, Junfeng Wu, Li Li, Ling Shi, "Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy", *IEEE Transactions on Information Forensics and Security*, vol. 16, pp.2288-2299, 2021. [PDF](https://ieeexplore.ieee.org/document/9321546/keywords#keywords)
 - [J3] Ziyang Guo, **Yuqing Ni** (Corresponding author), Wing Shing Wong, Ling Shi, "Time Synchronization Attack and Countermeasure for Multi-System Scheduling in Remote Estimation", *IEEE Transactions on Automatic Control*, vol. 66, issue 2, pp.916-923, 2021. [PDF](https://ieeexplore.ieee.org/document/9099615)
 - [J2] **Yuqing Ni**, Ziyang Guo, Yilin Mo, Ling Shi, "On the Performance Analysis of Reset Attack in Cyber-Physical Systems", *IEEE Transactions on Automatic Control*, vol. 65, issue 1, pp.419-425, 2020. [PDF](https://ieeexplore.ieee.org/document/8704930)
