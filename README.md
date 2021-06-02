@@ -1,25 +1,13 @@
-# Yuqing NI （倪雨青）
-
-**Senior Engineer** with the **Algorithm Innovation Lab, Huawei Cloud BU** ([华为云算法创新Lab](https://www.huaweicloud.com/lab/algorithm/home.html)), Hangzhou, P.R. China
-
-**PhD** in **[Department of Electronic and Computer Engineering](https://www.ece.usthk.cn/), Hong Kong University of Science and Technology**, Hong Kong SAR, P.R. China
-
-<img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing1.jpg" width="250px" />
-
-**Tel.**: +86 18868120228
-
-**Email**: yniac@connect.ust.hk
-
 <table border="0">
   <tr>
     <td width="75%">
       <h1>Yuqing NI （倪雨青）</h1>
-      <p><b>**PhD** in **[Department of Electronic and Computer Engineering](https://www.ece.usthk.cn/), Hong Kong University of Science and Technology**</b></p>
-      <p><b>**Tel.**: +86 18868120228</b></p>
-      <p><b>**Email**: yniac@connect.ust.hk</b></p>
+      <p><b>PhD in Department of Electronic and Computer Engineering, Hong Kong University of Science and Technology</b></p>
+      <p><b>Tel.: +86 18868120228</b></p>
+      <p><b>Email: yniac@connect.ust.hk</b></p>
     </td>
     <td width="25%">
-      <img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing1.jpg" width="250px" />     % 插入证件照代码
+      <img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing1.jpg" width="250px" />
     </td>
   </tr>
 </table>
