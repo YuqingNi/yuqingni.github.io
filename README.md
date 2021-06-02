@@ -2,12 +2,13 @@
   <tr>
     <td width="75%">
       <h1>Yuqing NI （倪雨青）</h1>
-      <p><b>PhD in Department of Electronic and Computer Engineering, Hong Kong University of Science and Technology</b></p>
+      <p><b>PhD in Department of Electronic and Computer Engineering</b></p>
+      <p><b>Hong Kong University of Science and Technology</b></p>
       <p><b>Tel.: +86 18868120228</b></p>
       <p><b>Email: yniac@connect.ust.hk</b></p>
     </td>
     <td width="25%">
-      <img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing1.jpg" width="250px" />
+      <img src="https://github.com/YuqingNi/yuqingni.github.io/raw/master/yuqing1.jpg" width="100%" />
     </td>
   </tr>
 </table>
