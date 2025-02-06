@@ -108,6 +108,27 @@
         #footer a:hover {
             text-decoration: underline;
         }
+
+
+        .grade {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px; /* 每个年级之间的间距 */
+    }
+
+    .grade li {
+        flex: 0 0 20%; /* 每个项目占据20%的宽度 */
+        box-sizing: border-box;
+        padding: 10px; /* 可根据需要调整间距 */
+    }
+
+    p {
+        margin: 0; /* 去掉段落的默认边距 */
+    }
+
+        
     </style>
 </head>
 <body>
@@ -127,13 +148,22 @@
         </div>
 
         <h2>Master Students | 硕士生</h2>
-        <ul>
+        <ul class="grade">
             <li><p>Nuo Wang (2024级), 本科毕业于沈阳化工大学（推免）</p></li>
             <li><p>Zihou Yang (2024级), 本科毕业于郑州大学</p></li>
             <li><p>Yuhang Zhang (2024级), 本科毕业于江南大学</p></li>
+        </ul>
+        
+        <ul class="grade">
             <li><p>Taiyu Zhang (2023级), 本科毕业于江南大学</p></li>
+        </ul>
+        
+        <ul class="grade">
             <li><p>Yuhao Liu (2022级), 本科毕业于江南大学</p></li>
             <li><p>Shan Chen (2022级), 本科毕业于江南大学</p></li>
+        </ul>
+        
+        <ul class="grade">
             <li><p>Xinxin Yang (2021级), 本科毕业于洛阳理工学院</p></li>
         </ul>
 
