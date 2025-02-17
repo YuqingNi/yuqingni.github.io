@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group</title>
-    <link rel="stylesheet" href="jemdoc.css" type="text/css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,6 +14,7 @@
             background-color: #f9f9f9;
             color: #333;
         }
+
         #layout-menu {
             background-color: #2c3e50;
             color: #ecf0f1;
@@ -23,22 +24,27 @@
             height: 100%;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         }
+
         #layout-menu .menu-category {
             font-size: 1.2em;
             font-weight: bold;
             margin-bottom: 20px;
         }
+
         #layout-menu .menu-item {
             margin: 10px 0;
         }
+
         #layout-menu .menu-item a {
             color: #ecf0f1;
             text-decoration: none;
             font-size: 1em;
         }
+
         #layout-menu .menu-item a:hover {
             color: #1abc9c;
         }
+
         #layout-content {
             margin-left: 240px;
             padding: 20px;
@@ -47,12 +53,15 @@
             border-radius: 8px;
             margin-top: 20px;
             margin-right: 20px;
+            overflow-x: hidden;
         }
+
         #toptitle h1 {
             font-size: 2.5em;
             color: #2c3e50;
             margin-bottom: 20px;
         }
+
         h2 {
             font-size: 1.8em;
             color: #34495e;
@@ -61,10 +70,12 @@
             border-bottom: 2px solid #1abc9c;
             padding-bottom: 5px;
         }
+
         ul {
             list-style-type: none;
             padding: 0;
         }
+
         ul li {
             background-color: #ecf0f1;
             margin: 10px 0;
@@ -72,81 +83,20 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         ul li p {
             margin: 0;
             font-size: 1em;
             color: #333;
         }
-        .imgtable {
-            width: 100%;
-            margin-top: 20px;
-        }
-        .imgtable td {
-            text-align: center;
-            padding: 10px;
-        }
-        .imgtable img {
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-        }
-        .imgtable img:hover {
-            transform: scale(1.05);
-        }
-        #footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            border-radius: 8px;
-        }
-        #footer a {
-            color: #1abc9c;
-            text-decoration: none;
-        }
-        #footer a:hover {
-            text-decoration: underline;
-        }
 
-
-        .grade {
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        padding: 0;
-        margin-bottom: 20px; /* 每个年级之间的间距 */
-    }
-
-    .grade li {
-        flex: 0 0 20%; /* 每个项目占据20%的宽度 */
-        box-sizing: border-box;
-        padding: 10px; /* 可根据需要调整间距 */
-    }
-
-    p {
-        margin: 0; /* 去掉段落的默认边距 */
-    }
-
-        /* 新增响应式修改 */
-        #layout-content {
-            margin-left: 240px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-top: 20px;
-            margin-right: 20px;
-            overflow-x: hidden; /* 防止横向滚动 */
-        }
-
-        /* 图片表格优化 */
         .imgtable {
             width: 100%;
             margin-top: 20px;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            justify-content: center;
         }
 
         .imgtable td {
@@ -163,10 +113,28 @@
             transition: transform 0.3s ease;
             max-width: 100%;
             height: auto;
-            object-fit: cover;
+            object-fit: contain;
+            margin: 0 auto;
         }
 
-        /* 学生列表优化 */
+        #footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            border-radius: 8px;
+        }
+
+        #footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+
+        #footer a:hover {
+            text-decoration: underline;
+        }
+
         .grade {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -181,7 +149,7 @@
             padding: 15px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            break-inside: avoid; /* 防止内容断开 */
+            break-inside: avoid;
         }
 
         .grade li strong {
@@ -190,12 +158,17 @@
             margin-bottom: 8px;
         }
 
+        p {
+            margin: 0;
+        }
+
         /* 响应式调整 */
         @media (max-width: 1024px) {
             #layout-menu {
                 width: 180px;
                 padding: 15px;
             }
+
             #layout-content {
                 margin-left: 210px;
                 padding: 15px;
@@ -209,13 +182,16 @@
                 position: static;
                 box-shadow: none;
             }
+
             #layout-content {
                 margin: 15px;
                 padding: 15px;
             }
+
             .grade {
                 grid-template-columns: 1fr;
             }
+
             .imgtable {
                 grid-template-columns: 1fr;
             }
@@ -225,53 +201,26 @@
             h1 {
                 font-size: 2em;
             }
+
             h2 {
                 font-size: 1.5em;
             }
+
             .grade li {
                 padding: 10px;
             }
         }
 
-        .imgtable {
-    width: 100%;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    justify-content: center; /* 新增居中显示 */
-}
-
-/* 桌面端大屏幕优化 */
-@media (min-width: 1024px) {
-    .imgtable {
-        grid-template-columns: repeat(2, minmax(300px, 400px)); /* 限制最大宽度 */
-        justify-content: center; /* 强制居中 */
-    }
-}
-
-.imgtable img {
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain; /* 改为contain保持完整比例 */
-    margin: 0 auto; /* 确保居中 */
-}
-
-/* 保持移动端优化 */
-@media (max-width: 768px) {
-    .imgtable {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-}
+        /* 桌面端大屏幕优化 */
+        @media (min-width: 1024px) {
+            .imgtable {
+                grid-template-columns: repeat(2, minmax(300px, 400px));
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 
-
-    
 <body>
     <!-- 结构保持不变，只修改样式 -->
     <div id="layout-menu">
@@ -284,6 +233,7 @@
         <div class="menu-item"><a href="gro.html" class="current">Group</a></div>
         <div class="menu-item"><a href="misc.html">Miscellaneous</a></div>
     </div>
+
     <div id="layout-content">
         <div id="toptitle">
             <h1>Group</h1>
@@ -292,61 +242,83 @@
         <h2>Master Students | 硕士生</h2>
         <ul class="grade">
             <li><strong>2024级</strong></li>
-            <li><p><strong>Nuo Wang</strong></p>
-                <p>本科毕业于沈阳化工大学（推免）</p></li>
-            <li><p><strong>Zihou Yang</strong></p>
-                <p>本科毕业于郑州大学</p></li>
-            <li><p><strong>Yuhang Zhang</strong></p>
-                <p>本科毕业于江南大学</p></li>
+            <li>
+                <p><strong>Nuo Wang</strong></p>
+                <p>本科毕业于沈阳化工大学（推免）</p>
+            </li>
+            <li>
+                <p><strong>Zihou Yang</strong></p>
+                <p>本科毕业于郑州大学</p>
+            </li>
+            <li>
+                <p><strong>Yuhang Zhang</strong></p>
+                <p>本科毕业于江南大学</p>
+            </li>
         </ul>
-        
+
         <ul class="grade">
             <li><strong>2023级</strong></li>
-            <li><p><strong>Taiyu Zhang</strong></p>
-                <p>本科毕业于江南大学</p></li>
+            <li>
+                <p><strong>Taiyu Zhang</strong></p>
+                <p>本科毕业于江南大学</p>
+            </li>
         </ul>
-        
+
         <ul class="grade">
             <li><strong>2022级</strong></li>
-            <li><p><strong>Yuhao Liu</strong></p>
-                <p>本科毕业于江南大学</p></li>
-            <li><p><strong>Shan Chen</strong></p>
-                <p>本科毕业于江南大学</p></li>
+            <li>
+                <p><strong>Yuhao Liu</strong></p>
+                <p>本科毕业于江南大学</p>
+            </li>
+            <li>
+                <p><strong>Shan Chen</strong></p>
+                <p>本科毕业于江南大学</p>
+            </li>
         </ul>
-        
+
         <ul class="grade">
             <li><strong>2021级</strong></li>
-            <li><p><strong>Xinxin Yang</strong></p>
-                <p>本科毕业于洛阳理工学院</p></li>
+            <li>
+                <p><strong>Xinxin Yang</strong></p>
+                <p>本科毕业于洛阳理工学院</p>
+            </li>
         </ul>
 
         <h2>Undergraduate Students | 本科生</h2>
         <ul class="grade">
             <li><strong>2021级</strong></li>
-            <li><p><strong>Haonan Zhang</strong></p>
-                <p>江南大学物联网工程学院本科生，至善生</p></li>
+            <li>
+                <p><strong>Haonan Zhang</strong></p>
+                <p>江南大学物联网工程学院本科生，至善生</p>
+            </li>
         </ul>
 
         <ul class="grade">
             <li><strong>2020级</strong></li>
-            <li><p><strong>Tianao Shen</strong></p>
-                <p>江南大学物联网工程学院本科生</p></li>
-            <li><p><strong>Hongye Wang</strong></p>
-                <p>江南大学物联网工程学院本科生</p></li>
+            <li>
+                <p><strong>Tianao Shen</strong></p>
+                <p>江南大学物联网工程学院本科生</p>
+            </li>
+            <li>
+                <p><strong>Hongye Wang</strong></p>
+                <p>江南大学物联网工程学院本科生</p>
+            </li>
         </ul>
+
         <h2>Gallery</h2>
         <table class="imgtable">
-    <tr>
-        <td>
-            <img src="images/202406.jpg" alt="物联网工程学院" />
-            <p>物联网工程学院, Jun. 2024</p>
-        </td>
-        <td>
-            <img src="images/202411.jpg" alt="惠山" />
-            <p>惠山, Nov. 2024</p>
-        </td>
-    </tr>
-</table>
+            <tr>
+                <td>
+                    <img src="images/202406.jpg" alt="物联网工程学院" />
+                    <p>物联网工程学院, Jun. 2024</p>
+                </td>
+                <td>
+                    <img src="images/202411.jpg" alt="惠山" />
+                    <p>惠山, Nov. 2024</p>
+                </td>
+            </tr>
+        </table>
+
         <div id="footer">
             <div id="footer-text">
                 Page generated 2021-06-03, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
@@ -354,4 +326,5 @@
         </div>
     </div>
 </body>
+
 </html>
