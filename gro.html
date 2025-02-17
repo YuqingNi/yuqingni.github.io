@@ -128,10 +128,117 @@
         margin: 0; /* 去掉段落的默认边距 */
     }
 
-        
+        /* 新增响应式修改 */
+        #layout-content {
+            margin-left: 240px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-right: 20px;
+            overflow-x: hidden; /* 防止横向滚动 */
+        }
+
+        /* 图片表格优化 */
+        .imgtable {
+            width: 100%;
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .imgtable td {
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .imgtable img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* 学生列表优化 */
+        .grade {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 15px;
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+
+        .grade li {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            break-inside: avoid; /* 防止内容断开 */
+        }
+
+        .grade li strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 1024px) {
+            #layout-menu {
+                width: 180px;
+                padding: 15px;
+            }
+            #layout-content {
+                margin-left: 210px;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #layout-menu {
+                width: 100%;
+                height: auto;
+                position: static;
+                box-shadow: none;
+            }
+            #layout-content {
+                margin: 15px;
+                padding: 15px;
+            }
+            .grade {
+                grid-template-columns: 1fr;
+            }
+            .imgtable {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .grade li {
+                padding: 10px;
+            }
+        }
     </style>
 </head>
+
+
+    
 <body>
+    <!-- 结构保持不变，只修改样式 -->
     <div id="layout-menu">
         <div class="menu-category">倪雨青 Yuqing Ni</div>
         <div class="menu-item"><a href="index.html">主页</a></div>
@@ -192,20 +299,16 @@
             <li><p><strong>Hongye Wang</strong></p>
                 <p>江南大学物联网工程学院本科生</p></li>
         </ul>
-
-
         <h2>Gallery</h2>
         <table class="imgtable">
             <tr>
-                <td align="center">
-                    <img src="images/202406.jpg" alt="202406，物联网工程学院" width="300px" />
-                    <br />
-                    物联网工程学院, Jun. 2024
+                <td>
+                    <img src="images/202406.jpg" alt="物联网工程学院" />
+                    <p>物联网工程学院, Jun. 2024</p>
                 </td>
-                <td align="center">
-                    <img src="images/202411.jpg" alt="202411，惠山" width="300px" />
-                    <br />
-                    惠山, Nov. 2024
+                <td>
+                    <img src="images/202411.jpg" alt="惠山" />
+                    <p>惠山, Nov. 2024</p>
                 </td>
             </tr>
         </table>
