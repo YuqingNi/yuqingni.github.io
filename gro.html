@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group</title>
+    <link rel="stylesheet" href="jemdoc.css" type="text/css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,6 +28,9 @@
             font-weight: bold;
             margin-bottom: 20px;
         }
+        #layout-menu .menu-item {
+            margin: 10px 0;
+        }
         #layout-menu .menu-item a {
             color: #ecf0f1;
             text-decoration: none;
@@ -43,9 +47,8 @@
             border-radius: 8px;
             margin-top: 20px;
             margin-right: 20px;
-            overflow-x: hidden;
         }
-        h1 {
+        #toptitle h1 {
             font-size: 2.5em;
             color: #2c3e50;
             margin-bottom: 20px;
@@ -77,10 +80,75 @@
         .imgtable {
             width: 100%;
             margin-top: 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 10px;
         }
+        .imgtable td {
+            text-align: center;
+            padding: 10px;
+        }
+        .imgtable img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .imgtable img:hover {
+            transform: scale(1.05);
+        }
+        #footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            border-radius: 8px;
+        }
+        #footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+        #footer a:hover {
+            text-decoration: underline;
+        }
+
+
+        .grade {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px; /* 每个年级之间的间距 */
+    }
+
+    .grade li {
+        flex: 0 0 20%; /* 每个项目占据20%的宽度 */
+        box-sizing: border-box;
+        padding: 10px; /* 可根据需要调整间距 */
+    }
+
+    p {
+        margin: 0; /* 去掉段落的默认边距 */
+    }
+
+        /* 新增响应式修改 */
+        #layout-content {
+            margin-left: 240px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-right: 20px;
+            overflow-x: hidden; /* 防止横向滚动 */
+        }
+
+        /* 图片表格优化 */
+        .imgtable {
+            width: 100%;
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
         .imgtable td {
             text-align: center;
             padding: 10px;
@@ -88,6 +156,7 @@
             flex-direction: column;
             align-items: center;
         }
+
         .imgtable img {
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -95,31 +164,33 @@
             max-width: 100%;
             height: auto;
             object-fit: cover;
-            width: calc(100% - 20px); /* Adjusted width to fit within td */
         }
-        .imgtable img:hover {
-            transform: scale(1.05);
-        }
+
+        /* 学生列表优化 */
         .grade {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
             gap: 15px;
             list-style-type: none;
             padding: 0;
             margin-bottom: 30px;
         }
+
         .grade li {
             background: #f8f9fa;
             padding: 15px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            break-inside: avoid;
+            break-inside: avoid; /* 防止内容断开 */
         }
+
         .grade li strong {
             color: #2c3e50;
             display: block;
             margin-bottom: 8px;
         }
+
+        /* 响应式调整 */
         @media (max-width: 1024px) {
             #layout-menu {
                 width: 180px;
@@ -130,6 +201,7 @@
                 padding: 15px;
             }
         }
+
         @media (max-width: 768px) {
             #layout-menu {
                 width: 100%;
@@ -141,10 +213,14 @@
                 margin: 15px;
                 padding: 15px;
             }
-            .grade, .imgtable {
+            .grade {
+                grid-template-columns: 1fr;
+            }
+            .imgtable {
                 grid-template-columns: 1fr;
             }
         }
+
         @media (max-width: 480px) {
             h1 {
                 font-size: 2em;
@@ -156,11 +232,48 @@
                 padding: 10px;
             }
         }
+
+        .imgtable {
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center; /* 新增居中显示 */
+}
+
+/* 桌面端大屏幕优化 */
+@media (min-width: 1024px) {
+    .imgtable {
+        grid-template-columns: repeat(2, minmax(300px, 400px)); /* 限制最大宽度 */
+        justify-content: center; /* 强制居中 */
+    }
+}
+
+.imgtable img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* 改为contain保持完整比例 */
+    margin: 0 auto; /* 确保居中 */
+}
+
+/* 保持移动端优化 */
+@media (max-width: 768px) {
+    .imgtable {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
     </style>
 </head>
 
+
     
 <body>
+    <!-- 结构保持不变，只修改样式 -->
     <div id="layout-menu">
         <div class="menu-category">倪雨青 Yuqing Ni</div>
         <div class="menu-item"><a href="index.html">主页</a></div>
@@ -171,10 +284,10 @@
         <div class="menu-item"><a href="gro.html" class="current">Group</a></div>
         <div class="menu-item"><a href="misc.html">Miscellaneous</a></div>
     </div>
-
-        <div id="layout-content">
-        <h1>Group</h1>
-
+    <div id="layout-content">
+        <div id="toptitle">
+            <h1>Group</h1>
+        </div>
 
         <h2>Master Students | 硕士生</h2>
         <ul class="grade">
@@ -223,18 +336,17 @@
         </ul>
         <h2>Gallery</h2>
         <table class="imgtable">
-            <tr>
-                <td>
-                    <img src="images/202406.jpg" alt="物联网工程学院" />
-                    <p>物联网工程学院, Jun. 2024</p>
-                </td>
-                <td>
-                    <img src="images/202411.jpg" alt="惠山" />
-                    <p>惠山, Nov. 2024</p>
-                </td>
-            </tr>
-        </table>
-
+    <tr>
+        <td>
+            <img src="images/202406.jpg" alt="物联网工程学院" />
+            <p>物联网工程学院, Jun. 2024</p>
+        </td>
+        <td>
+            <img src="images/202411.jpg" alt="惠山" />
+            <p>惠山, Nov. 2024</p>
+        </td>
+    </tr>
+</table>
         <div id="footer">
             <div id="footer-text">
                 Page generated 2021-06-03, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
