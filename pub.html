@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,8 @@
             background-color: #f9f9f9;
             color: #333;
         }
+
+        /* Layout */
         #layout-menu {
             background-color: #2c3e50;
             color: #ecf0f1;
@@ -23,22 +26,7 @@
             height: 100%;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         }
-        #layout-menu .menu-category {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        #layout-menu .menu-item {
-            margin: 10px 0;
-        }
-        #layout-menu .menu-item a {
-            color: #ecf0f1;
-            text-decoration: none;
-            font-size: 1em;
-        }
-        #layout-menu .menu-item a:hover {
-            color: #1abc9c;
-        }
+
         #layout-content {
             margin-left: 240px;
             padding: 20px;
@@ -48,11 +36,35 @@
             margin-top: 20px;
             margin-right: 20px;
         }
+
+        /* Menu */
+        #layout-menu .menu-category {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #layout-menu .menu-item {
+            margin: 10px 0;
+        }
+
+        #layout-menu .menu-item a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        #layout-menu .menu-item a:hover {
+            color: #1abc9c;
+        }
+
+        /* Titles */
         #toptitle h1 {
             font-size: 2.5em;
             color: #2c3e50;
             margin-bottom: 20px;
         }
+
         h2 {
             font-size: 1.8em;
             color: #34495e;
@@ -61,10 +73,13 @@
             border-bottom: 2px solid #1abc9c;
             padding-bottom: 5px;
         }
+
+        /* Lists */
         ul {
             list-style-type: none;
             padding: 0;
         }
+
         ul li {
             background-color: #ecf0f1;
             margin: 10px 0;
@@ -72,27 +87,35 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         ul li p {
             margin: 0;
             font-size: 1em;
             color: #333;
         }
+
+        /* Image Table (Not used, but kept for consistency) */
         .imgtable {
             width: 100%;
             margin-top: 20px;
         }
+
         .imgtable td {
             text-align: center;
             padding: 10px;
         }
+
         .imgtable img {
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
         }
+
         .imgtable img:hover {
             transform: scale(1.05);
         }
+
+        /* Footer */
         #footer {
             text-align: center;
             margin-top: 40px;
@@ -101,19 +124,37 @@
             color: #ecf0f1;
             border-radius: 8px;
         }
+
         #footer a {
             color: #1abc9c;
             text-decoration: none;
         }
+
         #footer a:hover {
             text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            #layout-menu {
+                position: static;
+                width: 100%;
+                height: auto;
+                box-shadow: none;
+            }
+
+            #layout-content {
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 15px;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 
-
 <body>
-  <div id="layout-menu">
+    <div id="layout-menu">
         <div class="menu-category">倪雨青 Yuqing Ni</div>
         <div class="menu-item"><a href="index.html">主页</a></div>
         <div class="menu-item"><a href="wel.html">Welcome</a></div>
@@ -127,100 +168,225 @@
         <div id="toptitle">
             <h1>Publications</h1>
         </div>
-        
-        
+
+
         <h2>Submitted Papers</h2>
-            <ol>
-                <li><p>Mengqi Lu, <b>Yuqing Ni</b>, Wen Yang, Chao Yang, &ldquo;HMM Noise Injection for Privacy Protection in a Cooperative LQG Control System&rdquo;, submitted.</p>
-                </li>
-                <li><p>Chao Yang, <b>Yuqing Ni</b>, Wen Yang, Hongbo Shi, &ldquo;Privacy Preservation by Local Design in Cooperative Networked Control Systems&rdquo;, submitted.</p>
-                </li>
-            </ol>
-        
+        <ol>
+            <li>
+                <p>Mengqi Lu, <b>Yuqing Ni</b>, Wen Yang, Chao Yang, &ldquo;HMM Noise Injection for Privacy Protection in a
+                    Cooperative LQG Control System&rdquo;, submitted.</p>
+            </li>
+            <li>
+                <p>Chao Yang, <b>Yuqing Ni</b>, Wen Yang, Hongbo Shi, &ldquo;Privacy Preservation by Local Design in
+                    Cooperative Networked Control Systems&rdquo;, submitted.</p>
+            </li>
+        </ol>
+
         <h2>Journal Papers</h2>
-            <ol>
-                <li><p>Wenhao Lin, <b>Yuqing Ni</b>, Xiaoqiang Ren, Wen Yang, Chao Yang, &ldquo;Privacy Preservation by Public Design in Cloud-Based Cooperative LQG Control Systems&rdquo;, <i>International Journal of Robust and Nonlinear Control</i>, accepted, 2025. <a href="https://onlinelibrary.wiley.com/doi/10.1002/rnc.7778">PDF</a></p>
-                </li>
-                <li><p>Shan Chen, <b>Yuqing Ni*</b>, Lingying Huang, Xiaoli Luan, Fei Liu, &ldquo;Clustering-Based Detection Algorithm of Remote State Estimation under Stealthy Innovation-Based Attacks with Historical Data&rdquo;, <i>Neurocomputing</i>, volume 616, pp.128942, 2025. <a href="https://www.sciencedirect.com/science/article/pii/S0925231224017132">PDF</a></p>
-                </li>
-                <li><p>Lidong He, Mengran Li, <b>Yuqing Ni*</b>, Yanhui Tong, &ldquo;A Quasilinear Quadratic Tracking Method for Systems with Saturating Actuators&rdquo;, <i>International Journal of Robust and Nonlinear Control</i>, volume 35, issue 3, pp.1046-1059, 2025. <a href="https://onlinelibrary.wiley.com/doi/10.1002/rnc.7703">PDF</a></p>
-                </li>  
-                <li><p>Yuhao Liu, <b>Yuqing Ni*</b>, Chang Dong, Jun Chen, Fei Liu, &ldquo;Task Scheduling for Control System Based on Deep Reinforcement Learning&rdquo;, <i>Neurocomputing</i>, volume 610, pp.128609, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S0925231224013808">PDF</a></p>
-                </li>
-                <li><p>Rui Wang, Lingyu Ai, Yinghui Wang, Xiaolong Zhu, <b>Yuqing Ni</b>, Myungjin Cho, &ldquo;Generating Real-Scene Hologram through Light Field Imaging and Deep Learning&rdquo;, <i>Journal of Optics</i>, volume 26, issue 7, pp.075706, 2024. <a href="https://iopscience.iop.org/article/10.1088/2040-8986/ad4b3a/meta">PDF</a></p>
-                </li>
-                <li><p>Hanxiao Liu, <b>Yuqing Ni</b>, Xiaofan Wang, Lihua Xie, &ldquo;Linear Attacks against Remote State Estimation: Performance Analysis under an Encryption Scheme&rdquo;, <i>IEEE Transactions on Control of Network Systems</i>, volume 11, issue 4, pp.1812-1824, 2024. <a href="https://ieeexplore.ieee.org/document/10402087/authors">PDF</a></p>
-                </li>
-                <li><p>Yun Chen, Fuyi Qu, <b>Yuqing Ni</b>, Yuzhe Li, &ldquo;Strategic Information Transmission against Malicious Eavesdropper and Semi-Honest Estimator: A Tripartite Game Analysis&rdquo;, <i>IEEE Transactions on Control of Network Systems</i>, volume 11, issue 4, pp.1825-1834, 2024. <a href="https://ieeexplore.ieee.org/document/10400866">PDF</a></p>
-                </li>
-                <li><p>Hanxiao Liu, <b>Yuqing Ni</b>, Ding Lyu, Xiaoqiang Ren, Xiaofan Wang, &ldquo;Subsystem-Importance-Aware DoS Attacks and Countermeasures&rdquo;, <i>Automatica</i>, volume 164, pp.111640, 2024. <a href="https://www.sciencedirect.com/science/article/abs/pii/S000510982400133X">PDF</a></p>
-                </li>
-                <li><p>Xinxin Yang, <b>Yuqing Ni*</b>, Zhe Wu, Wen Yang, Fei Liu, &ldquo;Optimal Denial-of-Service Attack Scheduling for Remote State Estimation with Time-Varying Noise Power&rdquo;, <i>International Journal of Robust and Nonlinear Control</i>, volume 34, issue 6, pp.3962-3974, 2024. <a href="http://doi.org/10.1002/rnc.7172">PDF</a></p>
-                </li>  
-                <li><p>Qingchen Liu, Jie Wang, <b>Yuqing Ni</b>, Cong Zhang, Ling Shi, Jiahu Qin, &ldquo;Performance Analysis for Cyber-Physical Systems under Two Types of Stealthy Deception Attacks&rdquo;, <i>Automatica</i>, volume 160, pp.111446, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S0005109823006131">PDF</a></p>
-                </li>
-                <li><p><b>Yuqing Ni</b>, Xiaochen Liu, Chao Yang, &ldquo;Sensor Scheduling for Remote State Estimation with Limited Communication Resources: A Time- and Event-Triggered Hybrid Approach&rdquo;, <i>Sensors</i>, volume 23, issue 21, pp.8667, 2023. <a href="https://www.mdpi.com/1424-8220/23/21/8667/htm">PDF</a></p>
-                </li>  
-                <li><p>Hao Shi, <b>Yuqing Ni</b>, Mengran Li, Lidong He, &ldquo;Detection-Estimation Strategies for Delayed Systems with Unavailable Packet Sequence&rdquo;, <i>Journal of the Franklin Institute</i>, volume 360, issue 5, pp.3575-3591, 2023. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0016003223000807">PDF</a></p>
-                </li>  
-                <li><p>Hanxiao Liu, <b>Yuqing Ni</b>, Lihua Xie, Karl Henrik Johansson, &ldquo;How Vulnerable is Innovation-based Remote State Estimation: Fundamental Limits under Linear Attacks&rdquo;, <i>Automatica</i>, volume 136, pp.110079, 2022. <a href="https://www.sciencedirect.com/science/article/pii/S0005109821006087">PDF</a></p>
-                </li>  
-                <li><p><b>Yuqing Ni</b>, Xiaoqiang Ren, Subhrakanti Dey, Ling Shi, &ldquo;Remote State Estimation with a Strategic Sensor Using a Stackelberg Game Framework&rdquo;, <i>IEEE Transactions on Control of Network Systems</i>, volume 8, issue 4, pp.1613-1623, 2021. <a href="https://ieeexplore.ieee.org/abstract/document/9424442">PDF</a></p>
-                </li>
-                <li><p><b>Yuqing Ni</b>, Junfeng Wu, Li Li, Ling Shi, &ldquo;Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy&rdquo;, <i>IEEE Transactions on Information Forensics and Security</i>, volume 16, pp.2288-2299, 2021. <a href="https://ieeexplore.ieee.org/document/9321546">PDF</a></p>
-                </li>
-                <li><p>Ziyang Guo, <b>Yuqing Ni*</b>, Wing Shing Wong, Ling Shi, &ldquo;Time Synchronization Attack and Countermeasure for Multi-System Scheduling in Remote Estimation&rdquo;, <i>IEEE Transactions on Automatic Control</i>, volume 66, issue 2, pp.916-923, 2021. <a href="https://ieeexplore.ieee.org/document/9099615">PDF</a></p>
-                </li>
-                <li><p><b>Yuqing Ni</b>, Ziyang Guo, Yilin Mo, Ling Shi, &ldquo;On the Performance Analysis of Reset Attack in Cyber-Physical Systems&rdquo;, <i>IEEE Transactions on Automatic Control</i>, volume 65, issue 1, pp.419-425, 2020. <a href="https://ieeexplore.ieee.org/document/8704930">PDF</a></p>
-                </li>
-                <li><p><b>Yuqing Ni</b>, Alex S. Leong, Daniel E. Quevedo, Ling Shi, &ldquo;Pricing and Selection of Channels for Remote State Estimation Using a Stackelberg Game Framework&rdquo;, <i>IEEE Transactions on Signal and Information Processing over Networks</i>, volume 5, issue 4, pp.657-668, 2019. <a href="https://ieeexplore.ieee.org/document/8786167">PDF</a></p>
-                </li>  
-            </ol>
-        
+        <ol>
+            <li>
+                <p>Wenhao Lin, <b>Yuqing Ni</b>, Xiaoqiang Ren, Wen Yang, Chao Yang, &ldquo;Privacy Preservation by Public
+                    Design in Cloud-Based Cooperative LQG Control Systems&rdquo;, <i>International Journal of Robust and
+                        Nonlinear Control</i>, accepted, 2025. <a
+                        href="https://onlinelibrary.wiley.com/doi/10.1002/rnc.7778">PDF</a></p>
+            </li>
+            <li>
+                <p>Shan Chen, <b>Yuqing Ni*</b>, Lingying Huang, Xiaoli Luan, Fei Liu, &ldquo;Clustering-Based Detection
+                    Algorithm of Remote State Estimation under Stealthy Innovation-Based Attacks with Historical
+                    Data&rdquo;, <i>Neurocomputing</i>, volume 616, pp.128942, 2025. <a
+                        href="https://www.sciencedirect.com/science/article/pii/S0925231224017132">PDF</a></p>
+            </li>
+            <li>
+                <p>Lidong He, Mengran Li, <b>Yuqing Ni*</b>, Yanhui Tong, &ldquo;A Quasilinear Quadratic Tracking Method for
+                    Systems with Saturating Actuators&rdquo;, <i>International Journal of Robust and Nonlinear
+                        Control</i>, volume 35, issue 3, pp.1046-1059, 2025. <a
+                        href="https://onlinelibrary.wiley.com/doi/10.1002/rnc.7703">PDF</a></p>
+            </li>
+            <li>
+                <p>Yuhao Liu, <b>Yuqing Ni*</b>, Chang Dong, Jun Chen, Fei Liu, &ldquo;Task Scheduling for Control System
+                    Based on Deep Reinforcement Learning&rdquo;, <i>Neurocomputing</i>, volume 610, pp.128609, 2024. <a
+                        href="https://www.sciencedirect.com/science/article/pii/S0925231224013808">PDF</a></p>
+            </li>
+            <li>
+                <p>Rui Wang, Lingyu Ai, Yinghui Wang, Xiaolong Zhu, <b>Yuqing Ni</b>, Myungjin Cho, &ldquo;Generating
+                    Real-Scene Hologram through Light Field Imaging and Deep Learning&rdquo;, <i>Journal of Optics</i>,
+                    volume 26, issue 7, pp.075706, 2024. <a
+                        href="https://iopscience.iop.org/article/10.1088/2040-8986/ad4b3a/meta">PDF</a></p>
+            </li>
+            <li>
+                <p>Hanxiao Liu, <b>Yuqing Ni</b>, Xiaofan Wang, Lihua Xie, &ldquo;Linear Attacks against Remote State
+                    Estimation: Performance Analysis under an Encryption Scheme&rdquo;, <i>IEEE Transactions on Control
+                        of Network Systems</i>, volume 11, issue 4, pp.1812-1824, 2024. <a
+                        href="https://ieeexplore.ieee.org/document/10402087/authors">PDF</a></p>
+            </li>
+            <li>
+                <p>Yun Chen, Fuyi Qu, <b>Yuqing Ni</b>, Yuzhe Li, &ldquo;Strategic Information Transmission against Malicious
+                    Eavesdropper and Semi-Honest Estimator: A Tripartite Game Analysis&rdquo;, <i>IEEE Transactions on
+                        Control of Network Systems</i>, volume 11, issue 4, pp.1825-1834, 2024. <a
+                        href="https://ieeexplore.ieee.org/document/10400866">PDF</a></p>
+            </li>
+            <li>
+                <p>Hanxiao Liu, <b>Yuqing Ni</b>, Ding Lyu, Xiaoqiang Ren, Xiaofan Wang, &ldquo;Subsystem-Importance-Aware DoS
+                    Attacks and Countermeasures&rdquo;, <i>Automatica</i>, volume 164, pp.111640, 2024. <a
+                        href="https://www.sciencedirect.com/science/article/abs/pii/S000510982400133X">PDF</a></p>
+            </li>
+            <li>
+                <p>Xinxin Yang, <b>Yuqing Ni*</b>, Zhe Wu, Wen Yang, Fei Liu, &ldquo;Optimal Denial-of-Service Attack
+                    Scheduling for Remote State Estimation with Time-Varying Noise Power&rdquo;, <i>International Journal
+                        of Robust and Nonlinear Control</i>, volume 34, issue 6, pp.3962-3974, 2024. <a
+                        href="http://doi.org/10.1002/rnc.7172">PDF</a></p>
+            </li>
+            <li>
+                <p>Qingchen Liu, Jie Wang, <b>Yuqing Ni</b>, Cong Zhang, Ling Shi, Jiahu Qin, &ldquo;Performance Analysis for
+                    Cyber-Physical Systems under Two Types of Stealthy Deception Attacks&rdquo;, <i>Automatica</i>, volume
+                    160, pp.111446, 2024. <a
+                        href="https://www.sciencedirect.com/science/article/pii/S0005109823006131">PDF</a></p>
+            </li>
+            <li>
+                <p><b>Yuqing Ni</b>, Xiaochen Liu, Chao Yang, &ldquo;Sensor Scheduling for Remote State Estimation with
+                    Limited Communication Resources: A Time- and Event-Triggered Hybrid Approach&rdquo;, <i>Sensors</i>,
+                    volume 23, issue 21, pp.8667, 2023. <a href="https://www.mdpi.com/1424-8220/23/21/8667/htm">PDF</a></p>
+            </li>
+            <li>
+                <p>Hao Shi, <b>Yuqing Ni</b>, Mengran Li, Lidong He, &ldquo;Detection-Estimation Strategies for Delayed
+                    Systems with Unavailable Packet Sequence&rdquo;, <i>Journal of the Franklin Institute</i>, volume 360,
+                    issue 5, pp.3575-3591, 2023. <a
+                        href="https://www.sciencedirect.com/science/article/abs/pii/S0016003223000807">PDF</a></p>
+            </li>
+            <li>
+                <p>Hanxiao Liu, <b>Yuqing Ni</b>, Lihua Xie, Karl Henrik Johansson, &ldquo;How Vulnerable is Innovation-based
+                    Remote State Estimation: Fundamental Limits under Linear Attacks&rdquo;, <i>Automatica</i>, volume 136,
+                    pp.110079, 2022. <a
+                        href="https://www.sciencedirect.com/science/article/pii/S0005109821006087">PDF</a></p>
+            </li>
+            <li>
+                <p><b>Yuqing Ni</b>, Xiaoqiang Ren, Subhrakanti Dey, Ling Shi, &ldquo;Remote State Estimation with a Strategic
+                    Sensor Using a Stackelberg Game Framework&rdquo;, <i>IEEE Transactions on Control of Network
+                        Systems</i>, volume 8, issue 4, pp.1613-1623, 2021. <a
+                        href="https://ieeexplore.ieee.org/abstract/document/9424442">PDF</a></p>
+            </li>
+            <li>
+                <p><b>Yuqing Ni</b>, Junfeng Wu, Li Li, Ling Shi, &ldquo;Multi-Party Dynamic State Estimation that Preserves
+                    Data and Model Privacy&rdquo;, <i>IEEE Transactions on Information Forensics and Security</i>, volume
+                    16, pp.2288-2299, 2021. <a href="https://ieeexplore.ieee.org/document/9321546">PDF</a></p>
+            </li>
+            <li>
+                <p>Ziyang Guo, <b>Yuqing Ni*</b>, Wing Shing Wong, Ling Shi, &ldquo;Time Synchronization Attack and
+                    Countermeasure for Multi-System Scheduling in Remote Estimation&rdquo;, <i>IEEE Transactions on
+                        Automatic Control</i>, volume 66, issue 2, pp.916-923, 2021. <a
+                        href="https://ieeexplore.ieee.org/document/9099615">PDF</a></p>
+            </li>
+            <li>
+                <p><b>Yuqing Ni</b>, Ziyang Guo, Yilin Mo, Ling Shi, &ldquo;On the Performance Analysis of Reset Attack in
+                    Cyber-Physical Systems&rdquo;, <i>IEEE Transactions on Automatic Control</i>, volume 65, issue 1,
+                    pp.419-425, 2020. <a href="https://ieeexplore.ieee.org/document/8704930">PDF</a></p>
+            </li>
+            <li>
+                <p><b>Yuqing Ni</b>, Alex S. Leong, Daniel E. Quevedo, Ling Shi, &ldquo;Pricing and Selection of Channels for
+                    Remote State Estimation Using a Stackelberg Game Framework&rdquo;, <i>IEEE Transactions on Signal and
+                        Information Processing over Networks</i>, volume 5, issue 4, pp.657-668, 2019. <a
+                        href="https://ieeexplore.ieee.org/document/8786167">PDF</a></p>
+            </li>
+        </ol>
+
         <h2>Conference Papers</h2>
         <ol>
-            <li><p>Yuhao Liu, <b>Yuqing Ni*</b>, Jun Chen, Fei Liu, &ldquo;DRL-based Resource Scheduling for Control System in Heterogeneous Environment&rdquo;, <i>International Conference on Industrial Artificial Intelligence (IAI)</i>, Shenyang, China, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10730132/authors#authors">PDF</a></p>
+            <li>
+                <p>Yuhao Liu, <b>Yuqing Ni*</b>, Jun Chen, Fei Liu, &ldquo;DRL-based Resource Scheduling for Control System in
+                    Heterogeneous Environment&rdquo;, <i>International Conference on Industrial Artificial Intelligence
+                        (IAI)</i>, Shenyang, China, 2024. <a
+                        href="https://ieeexplore.ieee.org/abstract/document/10730132/authors#authors">PDF</a></p>
             </li>
-            <li><p>Wenhao Lin, <b>Yuqing Ni</b>, Wen Yang, Chao Yang, &ldquo;Privacy Preservation by Intermittent Transmission in Cooperative LQG Control Systems&rdquo;, <i>Asian Control Conference (ASCC)</i>, Dalian, China, 2024. <a href="https://ieeexplore.ieee.org/document/10665674">PDF</a></p>  
+            <li>
+                <p>Wenhao Lin, <b>Yuqing Ni</b>, Wen Yang, Chao Yang, &ldquo;Privacy Preservation by Intermittent Transmission
+                    in Cooperative LQG Control Systems&rdquo;, <i>Asian Control Conference (ASCC)</i>, Dalian, China, 2024.
+                    <a href="https://ieeexplore.ieee.org/document/10665674">PDF</a></p>
             </li>
-            <li><p>Haonan Zhang, <b>Yuqing Ni*</b>, Yuhao Liu, Xiaoli Luan, Fei Liu, &ldquo;D3QN-Based Online Sensor Scheduling for Remote State Estimation&rdquo;, <i>Youth Academic Annual Conference of Chinese Association of Automation (YAC)</i>, Dalian, China, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10598406">PDF</a></p>  
+            <li>
+                <p>Haonan Zhang, <b>Yuqing Ni*</b>, Yuhao Liu, Xiaoli Luan, Fei Liu, &ldquo;D3QN-Based Online Sensor
+                    Scheduling for Remote State Estimation&rdquo;, <i>Youth Academic Annual Conference of Chinese
+                        Association of Automation (YAC)</i>, Dalian, China, 2024. <a
+                        href="https://ieeexplore.ieee.org/abstract/document/10598406">PDF</a></p>
             </li>
-            <li><p>Xinxin Yang, <b>Yuqing Ni*</b>, Xiaomeng Chen, Shan Chen, Fei Liu, &ldquo;Optimal Denial-of-Service Attack Scheduling for Remote State Estimation via Sequential Observations&rdquo;, <i>Chinese Control Conference (CCC)</i>, Kunming, China, 2024. <a href="https://ieeexplore.ieee.org/document/10661784">PDF</a></p> 
+            <li>
+                <p>Xinxin Yang, <b>Yuqing Ni*</b>, Xiaomeng Chen, Shan Chen, Fei Liu, &ldquo;Optimal Denial-of-Service Attack
+                    Scheduling for Remote State Estimation via Sequential Observations&rdquo;, <i>Chinese Control
+                        Conference (CCC)</i>, Kunming, China, 2024. <a
+                        href="https://ieeexplore.ieee.org/document/10661784">PDF</a></p>
             </li>
-            <li><p>Ji Shi, Lidong He, <b>Yuqing Ni</b>, Yanhui Tong, &ldquo;Variational Bayesian-Based Robust Weighted Cubature Kalman Filter for State Estimation&rdquo;, <i>International Conference on Autonomous Unmanned Systems (ICAUS)</i>, Nanjing, China, 2023. <a href="https://link.springer.com/chapter/10.1007/978-981-97-1083-6_41">PDF</a></p>
+            <li>
+                <p>Ji Shi, Lidong He, <b>Yuqing Ni</b>, Yanhui Tong, &ldquo;Variational Bayesian-Based Robust Weighted
+                    Cubature Kalman Filter for State Estimation&rdquo;, <i>International Conference on Autonomous Unmanned
+                        Systems (ICAUS)</i>, Nanjing, China, 2023. <a
+                        href="https://link.springer.com/chapter/10.1007/978-981-97-1083-6_41">PDF</a></p>
             </li>
-            <li><p>Mengran Li, <b>Yuqing Ni</b>, Lidong He, Yanhui Tong, &ldquo;A Quasilinear Quadratic Tracking Algorithm for Systems with Saturating Actuators&rdquo;, <i>International Conference on Autonomous Unmanned Systems (ICAUS)</i>, Nanjing, China, 2023. <a href="https://link.springer.com/chapter/10.1007/978-981-97-1083-6_42">PDF</a></p>
+            <li>
+                <p>Mengran Li, <b>Yuqing Ni</b>, Lidong He, Yanhui Tong, &ldquo;A Quasilinear Quadratic Tracking Algorithm for
+                    Systems with Saturating Actuators&rdquo;, <i>International Conference on Autonomous Unmanned Systems
+                        (ICAUS)</i>, Nanjing, China, 2023. <a
+                        href="https://link.springer.com/chapter/10.1007/978-981-97-1083-6_42">PDF</a></p>
             </li>
-            <li><p><b>Yuqing Ni</b>, Chao Yang, Xiaochen Liu, Xiaoli Luan, Fei Liu, &ldquo;Submodularity-Based Sensor Scheduling for State Estimation among Multiple Linear Dynamical Systems&rdquo;, <i>Jiangsu Annual Conference on Automation</i>, Wuxi, China, 2022. <a href="https://ieeexplore.ieee.org/document/10106298">PDF</a></p>
+            <li>
+                <p><b>Yuqing Ni</b>, Chao Yang, Xiaochen Liu, Xiaoli Luan, Fei Liu, &ldquo;Submodularity-Based Sensor
+                    Scheduling for State Estimation among Multiple Linear Dynamical Systems&rdquo;, <i>Jiangsu Annual
+                        Conference on Automation</i>, Wuxi, China, 2022. <a
+                        href="https://ieeexplore.ieee.org/document/10106298">PDF</a></p>
             </li>
-            <li><p>Xiaochen Liu, <b>Yuqing Ni</b>, Lingli Hu, Wenjie Ming, Yao Ding, Shuang Wang, Jizhong Shen, &ldquo;A P300-Classification and Spike-Detection Based Study of the Cognitive and Memory Impairment in Epilepsy&rdquo; (<b>Best Paper Award</b>), <i>Jiangsu Annual Conference on Automation</i>, Wuxi, China, 2022. <a href="https://ieeexplore.ieee.org/document/10106351">PDF</a></p>
-            </li>   
-            <li><p>Hanxiao Liu, <b>Yuqing Ni</b>, Lihua Xie, Karl Henrik Johansson, &ldquo;An Optimal Linear Attack Strategy on Remote State Estimation&rdquo;, <i>IFAC World Congress</i>, Berlin, Germany, 2020. <a href="https://www.sciencedirect.com/science/article/pii/S2405896320323247">PDF</a></p>
+            <li>
+                <p>Xiaochen Liu, <b>Yuqing Ni</b>, Lingli Hu, Wenjie Ming, Yao Ding, Shuang Wang, Jizhong Shen, &ldquo;A
+                    P300-Classification and Spike-Detection Based Study of the Cognitive and Memory Impairment in
+                    Epilepsy&rdquo; (<b>Best Paper Award</b>), <i>Jiangsu Annual Conference on Automation</i>, Wuxi, China,
+                    2022. <a href="https://ieeexplore.ieee.org/document/10106351">PDF</a></p>
             </li>
-            <li><p><b>Yuqing Ni</b>, Kemi Ding, Yong Yang, Ling Shi, &ldquo;On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors&rdquo;, <i>Chinese Control Conference (CCC)</i>, Guangzhou, China, 2019. <a href="https://ieeexplore.ieee.org/document/8866367">PDF</a></p>
-            </li> 
-            <li><p>Kam Fai Elvis Tsang, <b>Yuqing Ni</b>, Cheuk Fung Raphael Wong, Ling Shi, &ldquo;A Novel Warehouse Multi-Robot Automation System with Semi-Complete and Computationally Efficient Path Planning and Adaptive Genetic Task Allocation Algorithms&rdquo;, <i>International Conference on Control, Automation, Robotics and Vision (ICARCV)</i>, Singapore, 2018. <a href="https://ieeexplore.ieee.org/document/8581092">PDF</a></p>
-            </li>   
-            <li><p><b>Yuqing Ni</b>, Alex S. Leong, Daniel E. Quevedo, Ling Shi, &ldquo;Game-Theoretic Pricing and Selection with Fading Channels&rdquo;, <i>Asian Control Conference (ASCC)</i>, Gold Coast, Australia, 2017. <a href="https://ieeexplore.ieee.org/document/8287296">PDF</a></p>
-            </li> 
+            <li>
+                <p>Hanxiao Liu, <b>Yuqing Ni</b>, Lihua Xie, Karl Henrik Johansson, &ldquo;An Optimal Linear Attack Strategy on
+                    Remote State Estimation&rdquo;, <i>IFAC World Congress</i>, Berlin, Germany, 2020. <a
+                        href="https://www.sciencedirect.com/science/article/pii/S2405896320323247">PDF</a></p>
+            </li>
+            <li>
+                <p><b>Yuqing Ni</b>, Kemi Ding, Yong Yang, Ling Shi, &ldquo;On the Performance Analysis of Binary Hypothesis
+                    Testing with Byzantine Sensors&rdquo;, <i>Chinese Control Conference (CCC)</i>, Guangzhou, China, 2019.
+                    <a href="https://ieeexplore.ieee.org/document/8866367">PDF</a></p>
+            </li>
+            <li>
+                <p>Kam Fai Elvis Tsang, <b>Yuqing Ni</b>, Cheuk Fung Raphael Wong, Ling Shi, &ldquo;A Novel Warehouse
+                    Multi-Robot Automation System with Semi-Complete and Computationally Efficient Path Planning and
+                    Adaptive Genetic Task Allocation Algorithms&rdquo;, <i>International Conference on Control, Automation,
+                        Robotics and Vision (ICARCV)</i>, Singapore, 2018. <a
+                        href="https://ieeexplore.ieee.org/document/8581092">PDF</a></p>
+            </li>
+            <li>
+                <p><b>Yuqing Ni</b>, Alex S. Leong, Daniel E. Quevedo, Ling Shi, &ldquo;Game-Theoretic Pricing and Selection
+                    with Fading Channels&rdquo;, <i>Asian Control Conference (ASCC)</i>, Gold Coast, Australia, 2017. <a
+                        href="https://ieeexplore.ieee.org/document/8287296">PDF</a></p>
+            </li>
         </ol>
-        
+
         <h2>Book Chapter</h2>
         <ol>
-            <li><p><b>Yuqing Ni</b>, Ziyang Guo, Ling Shi, &ldquo;Cyber-Physical Systems Security: A Control-Theoretic Approach&rdquo;, <i>Encyclopedia of Systems and Control</i>, Springer, 2021. <a href="https://link.springer.com/referenceworkentry/10.1007%2F978-3-030-44184-5_100138">PDF</a></p>
-            </li>   
+            <li>
+                <p><b>Yuqing Ni</b>, Ziyang Guo, Ling Shi, &ldquo;Cyber-Physical Systems Security: A Control-Theoretic
+                    Approach&rdquo;, <i>Encyclopedia of Systems and Control</i>, Springer, 2021. <a
+                        href="https://link.springer.com/referenceworkentry/10.1007%2F978-3-030-44184-5_100138">PDF</a></p>
+            </li>
         </ol>
-        
+
         <h2>Selected Patents</h2>
         <ol>
-            <li><p>刘晗笑，<b>倪雨青</b>，吕丁，任肖强，汪小帆，柳春，徐梁，彭艳, &ldquo;一种针对信息物理系统远程状态估计的拒绝服务攻击方法&rdquo;, <i>中国国家发明专利</i>, 2024年授权. </p>
+            <li>
+                <p>刘晗笑，<b>倪雨青</b>，吕丁，任肖强，汪小帆，柳春，徐梁，彭艳, &ldquo;一种针对信息物理系统远程状态估计的拒绝服务攻击方法&rdquo;,
+                    <i>中国国家发明专利</i>, 2024年授权. </p>
             </li>
-            <li><p><b>倪雨青</b>，杨欣欣，栾小丽，赵顺毅，刘飞, &ldquo;面向时变噪声功率的最优DoS能量调度方法及系统&rdquo;, <i>中国国家发明专利</i>, 2024年授权. </p>
+            <li>
+                <p><b>倪雨青</b>，杨欣欣，栾小丽，赵顺毅，刘飞, &ldquo;面向时变噪声功率的最优DoS能量调度方法及系统&rdquo;,
+                    <i>中国国家发明专利</i>, 2024年授权. </p>
             </li>
-            <li><p>栾小丽，高爽，赵顺毅，<b>倪雨青</b>，刘飞, &ldquo;一种基于辅助量测信息的精馏塔单吨能耗估计方法及系统&rdquo;, <i>中国国家发明专利</i>, 2022年授权. </p>
+            <li>
+                <p>栾小丽，高爽，赵顺毅，<b>倪雨青</b>，刘飞, &ldquo;一种基于辅助量测信息的精馏塔单吨能耗估计方法及系统&rdquo;,
+                    <i>中国国家发明专利</i>, 2022年授权. </p>
             </li>
-        </ol>  
-        
+        </ol>
+
         <div id="footer">
             <div id="footer-text">
                 Page generated 2021-06-03, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
@@ -228,4 +394,5 @@
         </div>
     </div>
 </body>
+
 </html>
