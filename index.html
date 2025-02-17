@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>倪雨青 Yuqing Ni</title>
     <link rel="stylesheet" href="jemdoc.css" type="text/css">
     <style>
         body {
@@ -14,6 +15,8 @@
             background-color: #f9f9f9;
             color: #333;
         }
+
+        /* Layout */
         #layout-menu {
             background-color: #2c3e50;
             color: #ecf0f1;
@@ -23,22 +26,7 @@
             height: 100%;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         }
-        #layout-menu .menu-category {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        #layout-menu .menu-item {
-            margin: 10px 0;
-        }
-        #layout-menu .menu-item a {
-            color: #ecf0f1;
-            text-decoration: none;
-            font-size: 1em;
-        }
-        #layout-menu .menu-item a:hover {
-            color: #1abc9c;
-        }
+
         #layout-content {
             margin-left: 240px;
             padding: 20px;
@@ -48,11 +36,35 @@
             margin-top: 20px;
             margin-right: 20px;
         }
+
+        /* Menu */
+        #layout-menu .menu-category {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #layout-menu .menu-item {
+            margin: 10px 0;
+        }
+
+        #layout-menu .menu-item a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        #layout-menu .menu-item a:hover {
+            color: #1abc9c;
+        }
+
+        /* Titles */
         #toptitle h1 {
             font-size: 2.5em;
             color: #2c3e50;
             margin-bottom: 20px;
         }
+
         h2 {
             font-size: 1.8em;
             color: #34495e;
@@ -61,10 +73,13 @@
             border-bottom: 2px solid #1abc9c;
             padding-bottom: 5px;
         }
+
+        /* Lists */
         ul {
             list-style-type: none;
             padding: 0;
         }
+
         ul li {
             background-color: #ecf0f1;
             margin: 10px 0;
@@ -72,27 +87,37 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         ul li p {
             margin: 0;
             font-size: 1em;
             color: #333;
         }
+
+        /* Image Table */
         .imgtable {
             width: 100%;
             margin-top: 20px;
         }
+
         .imgtable td {
             text-align: center;
             padding: 10px;
         }
+
         .imgtable img {
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
+            max-width: 100%; /* Make images responsive within the table */
+            height: auto;
         }
+
         .imgtable img:hover {
             transform: scale(1.05);
         }
+
+        /* Footer */
         #footer {
             text-align: center;
             margin-top: 40px;
@@ -101,17 +126,47 @@
             color: #ecf0f1;
             border-radius: 8px;
         }
+
         #footer a {
             color: #1abc9c;
             text-decoration: none;
         }
+
         #footer a:hover {
             text-decoration: underline;
         }
+
+        /* Specific Image */
+        img[src="IMG_0503.jpg"] {
+            max-width: 200px; /* Set initial max-width for the profile image */
+            height: auto;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            #layout-menu {
+                position: static;
+                width: 100%;
+                height: auto;
+                box-shadow: none;
+            }
+
+            #layout-content {
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 15px;
+                padding: 15px;
+            }
+
+            img[src="IMG_0503.jpg"] {
+                max-width: 100%; /* Make profile image responsive on smaller screens */
+            }
+        }
     </style>
 </head>
+
 <body>
-  <div id="layout-menu">
+    <div id="layout-menu">
         <div class="menu-category">倪雨青 Yuqing Ni</div>
         <div class="menu-item"><a href="index.html" class="current">主页</a></div>
         <div class="menu-item"><a href="wel.html">Welcome</a></div>
@@ -126,54 +181,59 @@
             <h1>倪雨青 Yuqing Ni</h1>
         </div>
 
+        <table class="imgtable">
+            <tr>
+                <td>
+                    <img src="IMG_0503.jpg" alt="Yuqing NI" />&nbsp;
+                </td>
+                <td align="left">
+                    <p><b>倪雨青</b></p>
+                    <p>副教授/硕士生导师<br />
+                        <a href="https://www.jiangnan.edu.cn/index.htm">江南大学</a> | <a
+                            href="http://apcli.jiangnan.edu.cn/">轻工过程先进控制教育部重点实验室</a><br /></p>
+                    <br />
+                    <br />
+                    <br />
+                    <p>地址：江苏省无锡市蠡湖大道1800号 江南大学 物联网工程学院<br />
+                        邮箱：yuqingni@jiangnan.edu.cn</p>
+                </td>
+            </tr>
+        </table>
 
-
-<table class="imgtable"><tr><td>
-<img src="IMG_0503.jpg" alt="Yuqing NI" width="200px" />&nbsp;</td>
-<td align="left"><p><b>倪雨青</b></p>
-<p>副教授/硕士生导师<br />
-<a href="https://www.jiangnan.edu.cn/index.htm">江南大学</a> | <a href="http://apcli.jiangnan.edu.cn/">轻工过程先进控制教育部重点实验室</a><br /></p>
-<br />
-<br />
-<br />
-<p>地址：江苏省无锡市蠡湖大道1800号 江南大学 物联网工程学院<br />
-邮箱：yuqingni@jiangnan.edu.cn</p>
-</td></tr></table>
-  
-  
-<h2>研究领域</h2>
+        <h2>研究领域</h2>
         <ul>
             <li>网络化控制系统估计与优化</li>
             <li>信息物理系统隐私与安全</li>
             <li>数据挖掘与深度强化学习</li>
-        </ul> 
+        </ul>
 
-        
-<h2>个人简历</h2>
-倪雨青，博士，副教授，硕士生导师。2016年毕业于浙江大学自动化（控制）系/竺可桢学院，获工学学士学位，随后就读于香港科技大学电子与计算机工程学系，并于2020年获得博士学位。曾先后在加州大学洛杉矶分校、瑞典皇家理工学院进行交流访问，并在杭州华为企业通信技术有限公司担任高级工程师一职，于2021年加入江南大学物联网工程学院。
-主要研究方向包括信息物理系统隐私与安全，网络化控制系统估计与优化，数据挖掘与深度强化学习等。
-作为项目负责人，主持国家自然科学基金青年项目、江苏省自然科学基金青年项目、国家科技部重点研发子课题、无锡市“太湖之光”科技攻关计划基础研究项目、中央高校基本科研业务专项基金各1项，参与国家科技部重点研发课题、国家自然科学基金面上项目各1项，2022年度江苏省“双创博士”。
-截至2024年，在国际权威期刊和会议上发表高水平论文30余篇，授权中国发明专利8项、计算机软件著作2项。
-担任《物联网学报》青年编委，并担任IEEE Transactions on Automatic Control、Automatica、IEEE Transactions on Control of Network Systems、International Journal of Robust and Nonlinear Control等多项国际重要期刊审稿人。
-作为指导教师，指导本科生在蓝桥杯全国软件和信息技术专业人才大赛Python程序设计（江苏赛区）竞赛中获得二、三等奖若干。
+        <h2>个人简历</h2>
+        倪雨青，博士，副教授，硕士生导师。2016年毕业于浙江大学自动化（控制）系/竺可桢学院，获工学学士学位，随后就读于香港科技大学电子与计算机工程学系，并于2020年获得博士学位。曾先后在加州大学洛杉矶分校、瑞典皇家理工学院进行交流访问，并在杭州华为企业通信技术有限公司担任高级工程师一职，于2021年加入江南大学物联网工程学院。
+        主要研究方向包括信息物理系统隐私与安全，网络化控制系统估计与优化，数据挖掘与深度强化学习等。
+        作为项目负责人，主持国家自然科学基金青年项目、江苏省自然科学基金青年项目、国家科技部重点研发子课题、无锡市“太湖之光”科技攻关计划基础研究项目、中央高校基本科研业务专项基金各1项，参与国家科技部重点研发课题、国家自然科学基金面上项目各1项，2022年度江苏省“双创博士”。
+        截至2024年，在国际权威期刊和会议上发表高水平论文30余篇，授权中国发明专利8项、计算机软件著作2项。
+        担任《物联网学报》青年编委，并担任IEEE Transactions on Automatic Control、Automatica、IEEE Transactions on Control of Network
+        Systems、International Journal of Robust and Nonlinear Control等多项国际重要期刊审稿人。
+        作为指导教师，指导本科生在蓝桥杯全国软件和信息技术专业人才大赛Python程序设计（江苏赛区）竞赛中获得二、三等奖若干。
 
- 
-<h2>最新资讯</h2>
-每年招收硕士研究生，也欢迎对科研有兴趣的本科生提前加入实验室！
-<br />
-<br />
-<br />
-<div align="center">
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7868091&style=0006&nbdigits=6&type=page&initCount=55" title="Free Counter" Alt="web counter"   border="0" /></a>          
-</div>
-  
-<div id="footer">
+        <h2>最新资讯</h2>
+        每年招收硕士研究生，也欢迎对科研有兴趣的本科生提前加入实验室！
+        <br />
+        <br />
+        <br />
+        <div align="center">
+            <!-- hitwebcounter Code START -->
+            <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=7868091&style=0006&nbdigits=6&type=page&initCount=55"
+                    title="Free Counter" Alt="web counter" border="0" /></a>
+        </div>
+
+        <div id="footer">
             <div id="footer-text">
                 Page generated 2021-06-03, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
             </div>
         </div>
     </div>
 </body>
+
 </html>
