@@ -89,6 +89,8 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
+            max-width: 100%; /* 确保图像不会超出其容器 */
+            height: auto; /* 保持图像的宽高比 */
         }
         .imgtable img:hover {
             transform: scale(1.05);
@@ -128,8 +130,7 @@
             <h1>Biography</h1>
         </div>
 
-<img src="logos.jpg" alt="logos" width="1200px" />
-        
+        <img src="logos.jpg" alt="logos" style="max-width: 100%; height: auto;" />
         
         <h2>Employment</h2>
         <ol>
@@ -142,7 +143,6 @@
                 </ul>
             </li>
         </ol> 
-        
         
         <h2>Experience</h2>
         <ol>
@@ -159,7 +159,6 @@
                 </ul>
             </li>
         </ol>
-        
         
         <h2>Education</h2>
         <ol>
