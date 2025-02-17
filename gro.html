@@ -93,10 +93,11 @@
         .imgtable {
             width: 100%;
             margin-top: 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            justify-content: center;
+            display: flex; /* Changed to flexbox */
+            flex-direction: row; /* Ensure horizontal layout */
+            justify-content: center; /* Center the images horizontally */
+            align-items: center; /* Center images vertically */
+            gap: 30px; /* Space between images */
         }
 
         .imgtable td {
@@ -111,7 +112,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
-            max-width: 100%;
+            max-width: 400px; /* Set a maximum width for the images */
             height: auto;
             object-fit: contain;
             margin: 0 auto;
@@ -163,19 +164,15 @@
         }
 
         /* 响应式调整 */
-        @media (max-width: 1024px) {
-            #layout-menu {
-                width: 180px;
-                padding: 15px;
-            }
-
-            #layout-content {
-                margin-left: 210px;
-                padding: 15px;
-            }
-        }
-
         @media (max-width: 768px) {
+            .imgtable {
+                flex-direction: column; /* Stack images on smaller screens */
+            }
+
+            .imgtable img {
+                max-width: 100%; /* Allow images to take full width on smaller screens */
+            }
+
             #layout-menu {
                 width: 100%;
                 height: auto;
@@ -191,10 +188,6 @@
             .grade {
                 grid-template-columns: 1fr;
             }
-
-            .imgtable {
-                grid-template-columns: 1fr;
-            }
         }
 
         @media (max-width: 480px) {
@@ -208,14 +201,6 @@
 
             .grade li {
                 padding: 10px;
-            }
-        }
-
-        /* 桌面端大屏幕优化 */
-        @media (min-width: 1024px) {
-            .imgtable {
-                grid-template-columns: repeat(2, minmax(300px, 400px));
-                justify-content: center;
             }
         }
     </style>
