@@ -1,213 +1,47 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Yuqing Ni's Homepage!</title>
-    <link rel="stylesheet" href="jemdoc.css" type="text/css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Welcome to Yuqing Ni's Homepage!</title>
+<link href="jemdoc.css" rel="stylesheet" type="text/css"/>
 
-        /* Layout */
-        #layout-menu {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            padding: 20px;
-            width: 200px;
-            position: fixed;
-            height: 100%;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-        }
-
-        #layout-content {
-            margin-left: 240px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-top: 20px;
-            margin-right: 20px;
-        }
-
-        /* Menu */
-        #layout-menu .menu-category {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        #layout-menu .menu-item {
-            margin: 10px 0;
-        }
-
-        #layout-menu .menu-item a {
-            color: #ecf0f1;
-            text-decoration: none;
-            font-size: 1em;
-        }
-
-        #layout-menu .menu-item a:hover {
-            color: #1abc9c;
-        }
-
-        /* Titles */
-        #toptitle h1 {
-            font-size: 2.5em;
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 1.8em;
-            color: #34495e;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #1abc9c;
-            padding-bottom: 5px;
-        }
-
-        /* Lists */
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            background-color: #ecf0f1;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        ul li p {
-            margin: 0;
-            font-size: 1em;
-            color: #333;
-        }
-
-        /* Image Table */
-        .imgtable {
-            width: 100%;
-            margin-top: 20px;
-        }
-
-        .imgtable td {
-            text-align: center;
-            padding: 10px;
-        }
-
-        .imgtable img {
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-        }
-
-        .imgtable img:hover {
-            transform: scale(1.05);
-        }
-
-        /* Footer */
-        #footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            border-radius: 8px;
-        }
-
-        #footer a {
-            color: #1abc9c;
-            text-decoration: none;
-        }
-
-        #footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Profile Image */
-        img[src="IMG_0504.jpg"] {
-            max-width: 200px;
-            height: auto;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            #layout-menu {
-                position: static;
-                width: 100%;
-                height: auto;
-                box-shadow: none;
-            }
-
-            #layout-content {
-                margin-left: 0;
-                margin-right: 0;
-                margin-top: 15px;
-                padding: 15px;
-            }
-
-            img[src="IMG_0504.jpg"] {
-                max-width: 100%; /* Make profile image responsive on smaller screens */
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <div id="layout-menu">
-        <div class="menu-category">倪雨青 Yuqing Ni</div>
-        <div class="menu-item"><a href="index.html">主页</a></div>
-        <div class="menu-item"><a href="wel.html" class="current">Welcome</a></div>
-        <div class="menu-item"><a href="bio.html">Biography</a></div>
-        <div class="menu-item"><a href="pub.html">Publications</a></div>
-        <div class="menu-item"><a href="act.html">Activities</a></div>
-        <div class="menu-item"><a href="gro.html">Group</a></div>
-        <div class="menu-item"><a href="misc.html">Miscellaneous</a></div>
-    </div>
-    <div id="layout-content">
-        <div id="toptitle">
-            <h1>Welcome to Yuqing Ni's Homepage!</h1>
-        </div>
-
-        <table class="imgtable">
-            <tr>
-                <td>
-                    <img src="IMG_0504.jpg" alt="Yuqing NI" />&nbsp;
-                </td>
-                <td align="left">
-                    <p><b>Yuqing Ni</b></p>
-                    <p>Associate Professor<br />
-                        <a href="http://iot.jiangnan.edu.cn/">School of Automation and Intelligent Science</a><br />
-                        <a href="https://www.jiangnan.edu.cn/index.htm">Jiangnan University</a><br />
+<meta content="#0f172a" name="theme-color"/></head>
+<body class="page-welcome page-en">
+<div aria-label="Main navigation" id="layout-menu" role="navigation">
+<div class="menu-category">倪雨青 Yuqing Ni</div>
+<div class="menu-item"><a aria-label="主页" href="index.html">主页</a></div>
+<div class="menu-item"><a aria-label="Welcome" class="current" href="wel.html">Welcome</a></div>
+<div class="menu-item"><a aria-label="Biography" href="bio.html">Biography</a></div>
+<div class="menu-item"><a aria-label="Publications" href="pub.html">Publications</a></div>
+<div class="menu-item"><a aria-label="Activities" href="act.html">Activities</a></div>
+<div class="menu-item"><a aria-label="Group" href="gro.html">Group</a></div>
+<div class="menu-item"><a aria-label="Miscellaneous" href="misc.html">Miscellaneous</a></div>
+</div>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Welcome to Yuqing Ni's Homepage!</h1>
+</div>
+<section class="profile-hero"><div class="profile-photo"><img alt="Yuqing NI" src="IMG_0504.jpg"/></div><div class="profile-info">
+<p><b>Yuqing Ni</b></p>
+<p>Associate Professor<br/>
+<a href="http://iot.jiangnan.edu.cn/">School of Automation and Intelligent Science</a><br/>
+<a href="https://www.jiangnan.edu.cn/index.htm">Jiangnan University</a><br/>
                         Wuxi, P.R. China</p>
-                    <p>
-                        <b>Email</b>: yuqingni@jiangnan.edu.cn</p>
-                </td>
-            </tr>
-        </table>
-
-        <h2>Research Interests</h2>
-        <ul>
-            <li>Networked Estimation and Control</li>
-            <li>Security/Privacy of Cyber-Physical Systems</li>
-        </ul>
-
-        <div id="footer">
-            <div id="footer-text">
+<p>
+<b>Email</b>: yuqingni@jiangnan.edu.cn</p>
+</div></section>
+<h2>Research Interests</h2>
+<ul class="interest-list">
+<li>Networked Estimation and Control</li>
+<li>Security/Privacy of Cyber-Physical Systems</li>
+</ul>
+<div class="site-footer" id="footer">
+<div id="footer-text">
                 Page generated 2021-06-03, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
             </div>
-        </div>
-    </div>
+</div>
+</div>
 </body>
-
 </html>
