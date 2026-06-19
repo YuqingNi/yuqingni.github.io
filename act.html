@@ -1,310 +1,156 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Activities</title>
-    <link rel="stylesheet" href="jemdoc.css" type="text/css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Academic Activities</title>
+<link href="jemdoc.css" rel="stylesheet" type="text/css"/>
 
-        /* Layout */
-        #layout-menu {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            padding: 20px;
-            width: 200px;
-            position: fixed;
-            height: 100%;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-        }
-
-        #layout-content {
-            margin-left: 240px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-top: 20px;
-            margin-right: 20px;
-        }
-
-        /* Menu */
-        #layout-menu .menu-category {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        #layout-menu .menu-item {
-            margin: 10px 0;
-        }
-
-        #layout-menu .menu-item a {
-            color: #ecf0f1;
-            text-decoration: none;
-            font-size: 1em;
-        }
-
-        #layout-menu .menu-item a:hover {
-            color: #1abc9c;
-        }
-
-        /* Titles */
-        #toptitle h1 {
-            font-size: 2.5em;
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 1.8em;
-            color: #34495e;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #1abc9c;
-            padding-bottom: 5px;
-        }
-
-        /* Lists */
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            background-color: #ecf0f1;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        ul li p {
-            margin: 0;
-            font-size: 1em;
-            color: #333;
-        }
-
-        /* Image Table */
-        .imgtable {
-            width: 100%;
-            margin-top: 20px;
-        }
-
-        .imgtable td {
-            text-align: center;
-            padding: 10px;
-        }
-
-        .imgtable img {
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-            max-width: 100%; /* Make images responsive */
-            height: auto;
-        }
-
-        .imgtable img:hover {
-            transform: scale(1.05);
-        }
-
-        /* Footer */
-        #footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            border-radius: 8px;
-        }
-
-        #footer a {
-            color: #1abc9c;
-            text-decoration: none;
-        }
-
-        #footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            #layout-menu {
-                position: static;
-                width: 100%;
-                height: auto;
-                box-shadow: none;
-            }
-
-            #layout-content {
-                margin-left: 0;
-                margin-right: 0;
-                margin-top: 15px;
-                padding: 15px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <div id="layout-menu">
-        <div class="menu-category">倪雨青 Yuqing Ni</div>
-        <div class="menu-item"><a href="index.html">主页</a></div>
-        <div class="menu-item"><a href="wel.html">Welcome</a></div>
-        <div class="menu-item"><a href="bio.html">Biography</a></div>
-        <div class="menu-item"><a href="pub.html">Publications</a></div>
-        <div class="menu-item"><a href="act.html" class="current">Activities</a></div>
-        <div class="menu-item"><a href="gro.html">Group</a></div>
-        <div class="menu-item"><a href="misc.html">Miscellaneous</a></div>
-    </div>
-    <div id="layout-content">
-        <div id="toptitle">
-            <h1>Academic Activities</h1>
-        </div>
-
-        <h2>Teaching</h2>
-        <ol>
-            <li>
-                <p>Data Processing and Machine Learning, Autumn 2023-2025 (at JNU).</p>
-            </li>
-            <li>
-                <p>Python Programming, Spring 2022-2026 (at JNU).</p>
-            </li>
-            <li>
-                <p>Electrical and Electronics Engineering, Autumn 2022 (at JNU).</p>
-            </li>
-            <li>
-                <p>EESM 5730 Modern Control Systems Design, Fall 2017, Spring 2018, Spring 2019, Spring 2020 (teaching assistant at HKUST).</p>
-            </li>
-            <li>
-                <p>ELEC 3200 System Modeling, Analysis and Control, Spring 2017, Fall 2017 (teaching assistant at HKUST).</p>
-            </li>
-        </ol>
-
-        <h2>Invited Seminars</h2>
-        <ol>
-            <li>
-                <p>&ldquo;Data Analysis and Processing in Real Application Scenarios: Taking Cloud Computing and Epilepsy Cognitive Impairment as Examples&rdquo;, Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Jun. 2023.</p>
-            </li>
-            <li>
-                <p>&ldquo;Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy&rdquo;, School of Data Science, The Chinese University of Hong Kong (Shenzhen), Sep. 2021.</p>
-            </li>
-            <li>
-                <p>&ldquo;Privacy- and Security-Aware Remote State Estimation&rdquo;, College of Control Science and Engineering, Zhejiang University, Aug. 2020.</p>
-            </li>
-            <li>
-                <p>&ldquo;On the Performance Analysis of Reset Attack and Time Synchronization Attack in Cyber-Physical Systems&rdquo;, Department of Automation, Shanghai University, Oct. 2019.</p>
-            </li>
-            <li>
-                <p>&ldquo;On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors&rdquo;, 2019 Shanghai University-wide International Young Scholar Forum &ldquo;Control Science and Engineering&rdquo; Sub-forum -- ECUST &ldquo;Information Technology&rdquo; Young Scholar Forum, East China University of Science and Technology, Mar. 2019.</p>
-            </li>
-        </ol>
-
-        <h2>Awards</h2>
-        <ol>
-            <li>
-                <p>江南大学至善青年学者B类, 2025.</p>
-            </li>
-            <li>
-                <p>江苏省科技副总, 2025.</p>
-            </li>
-            <li>
-                <p>江苏省双创博士, 2022.</p>
-            </li>
-            <li>
-                <p>Best Paper Award, Jiangsu Annual Conference on Automation, 2022.</p>
-            </li>
-            <li>
-                <p>Overseas Research Award, Hong Kong University of Science and Technology, 2019.</p>
-            </li>
-            <li>
-                <p>SENG Top RPG Award, Hong Kong University of Science and Technology, 2018.</p>
-            </li>
-            <li>
-                <p>First-Class Scholarship, Zhejiang University, 2013.</p>
-            </li>
-            <li>
-                <p>First Prize in the Amateur Brass Band Contest, Zhejiang Province, 2013.</p>
-            </li>
-        </ol>
-
-        <h2>Journal Review</h2>
-        <ol>
-            <li>
-                <p>Automatica</p>
-            </li>
-            <li>
-                <p>IEEE Transactions on Automatic Control</p>
-            </li>
-            <li>
-                <p>IEEE Transactions on Control of Network Systems</p>
-            </li>
-            <li>
-                <p>IEEE Transactions on Cybernetics</p>
-            </li>
-            <li>
-                <p>Information Sciences</p>
-            </li>
-            <li>
-                <p>Systems & Control Letters</p>
-            </li>
-            <li>
-                <p>IEEE Transactions on Network Science and Engineering</p>
-            </li>
-            <li>
-                <p>Control Theory and Technology</p>
-            </li>
-            <li>
-                <p>International Journal of Robust and Nonlinear Control</p>
-            </li>
-            <li>
-                <p>IEEE Transactions on Industrial Informatics</p>
-            </li>
-            <li>
-                <p>Frontiers of Information Technology & Electronic Engineering</p>
-            </li>
-            <li>
-                <p>Computers and Operations Research</p>
-            </li>
-        </ol>
-
-        <h2>Conference Review</h2>
-        <ol>
-            <li>
-                <p>IEEE Conference on Decision and Control (CDC)</p>
-            </li>
-            <li>
-                <p>IEEE American Control Conference (ACC)</p>
-            </li>
-            <li>
-                <p>IFAC World Congress</p>
-            </li>
-            <li>
-                <p>European Control Conference (ECC)</p>
-            </li>
-            <li>
-                <p>IEEE Conference on Control Technology and Applications (CCTA)</p>
-            </li>
-            <li>
-                <p>International Conference on Control, Decision and Information Technologies (CoDIT)</p>
-            </li>
-        </ol>
-
-        <div id="footer">
-            <div id="footer-text">
+<meta content="#0f172a" name="theme-color"/></head>
+<body class="page-activities">
+<div aria-label="Main navigation" id="layout-menu" role="navigation">
+<div class="menu-category">倪雨青 Yuqing Ni</div>
+<div class="menu-item"><a aria-label="主页" href="index.html">主页</a></div>
+<div class="menu-item"><a aria-label="Welcome" href="wel.html">Welcome</a></div>
+<div class="menu-item"><a aria-label="Biography" href="bio.html">Biography</a></div>
+<div class="menu-item"><a aria-label="Publications" href="pub.html">Publications</a></div>
+<div class="menu-item"><a aria-label="Activities" class="current" href="act.html">Activities</a></div>
+<div class="menu-item"><a aria-label="Group" href="gro.html">Group</a></div>
+<div class="menu-item"><a aria-label="Miscellaneous" href="misc.html">Miscellaneous</a></div>
+</div>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Academic Activities</h1>
+</div>
+<h2>Teaching</h2>
+<ol class="activity-list">
+<li>
+<p>Data Processing and Machine Learning, Autumn 2023-2025 (at JNU).</p>
+</li>
+<li>
+<p>Python Programming, Spring 2022-2026 (at JNU).</p>
+</li>
+<li>
+<p>Electrical and Electronics Engineering, Autumn 2022 (at JNU).</p>
+</li>
+<li>
+<p>EESM 5730 Modern Control Systems Design, Fall 2017, Spring 2018, Spring 2019, Spring 2020 (teaching assistant at HKUST).</p>
+</li>
+<li>
+<p>ELEC 3200 System Modeling, Analysis and Control, Spring 2017, Fall 2017 (teaching assistant at HKUST).</p>
+</li>
+</ol>
+<h2>Invited Seminars</h2>
+<ol class="activity-list">
+<li>
+<p>“Data Analysis and Processing in Real Application Scenarios: Taking Cloud Computing and Epilepsy Cognitive Impairment as Examples”, Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Jun. 2023.</p>
+</li>
+<li>
+<p>“Multi-Party Dynamic State Estimation that Preserves Data and Model Privacy”, School of Data Science, The Chinese University of Hong Kong (Shenzhen), Sep. 2021.</p>
+</li>
+<li>
+<p>“Privacy- and Security-Aware Remote State Estimation”, College of Control Science and Engineering, Zhejiang University, Aug. 2020.</p>
+</li>
+<li>
+<p>“On the Performance Analysis of Reset Attack and Time Synchronization Attack in Cyber-Physical Systems”, Department of Automation, Shanghai University, Oct. 2019.</p>
+</li>
+<li>
+<p>“On the Performance Analysis of Binary Hypothesis Testing with Byzantine Sensors”, 2019 Shanghai University-wide International Young Scholar Forum “Control Science and Engineering” Sub-forum -- ECUST “Information Technology” Young Scholar Forum, East China University of Science and Technology, Mar. 2019.</p>
+</li>
+</ol>
+<h2>Awards</h2>
+<ol class="activity-list">
+<li>
+<p>江南大学至善青年学者B类, 2025.</p>
+</li>
+<li>
+<p>江苏省科技副总, 2025.</p>
+</li>
+<li>
+<p>江苏省双创博士, 2022.</p>
+</li>
+<li>
+<p>Best Paper Award, Jiangsu Annual Conference on Automation, 2022.</p>
+</li>
+<li>
+<p>Overseas Research Award, Hong Kong University of Science and Technology, 2019.</p>
+</li>
+<li>
+<p>SENG Top RPG Award, Hong Kong University of Science and Technology, 2018.</p>
+</li>
+<li>
+<p>First-Class Scholarship, Zhejiang University, 2013.</p>
+</li>
+<li>
+<p>First Prize in the Amateur Brass Band Contest, Zhejiang Province, 2013.</p>
+</li>
+</ol>
+<h2>Journal Review</h2>
+<ol class="activity-list">
+<li>
+<p>Automatica</p>
+</li>
+<li>
+<p>IEEE Transactions on Automatic Control</p>
+</li>
+<li>
+<p>IEEE Transactions on Control of Network Systems</p>
+</li>
+<li>
+<p>IEEE Transactions on Cybernetics</p>
+</li>
+<li>
+<p>Information Sciences</p>
+</li>
+<li>
+<p>Systems &amp; Control Letters</p>
+</li>
+<li>
+<p>IEEE Transactions on Network Science and Engineering</p>
+</li>
+<li>
+<p>Control Theory and Technology</p>
+</li>
+<li>
+<p>International Journal of Robust and Nonlinear Control</p>
+</li>
+<li>
+<p>IEEE Transactions on Industrial Informatics</p>
+</li>
+<li>
+<p>Frontiers of Information Technology &amp; Electronic Engineering</p>
+</li>
+<li>
+<p>Computers and Operations Research</p>
+</li>
+</ol>
+<h2>Conference Review</h2>
+<ol class="activity-list">
+<li>
+<p>IEEE Conference on Decision and Control (CDC)</p>
+</li>
+<li>
+<p>IEEE American Control Conference (ACC)</p>
+</li>
+<li>
+<p>IFAC World Congress</p>
+</li>
+<li>
+<p>European Control Conference (ECC)</p>
+</li>
+<li>
+<p>IEEE Conference on Control Technology and Applications (CCTA)</p>
+</li>
+<li>
+<p>International Conference on Control, Decision and Information Technologies (CoDIT)</p>
+</li>
+</ol>
+<div class="site-footer" id="footer">
+<div id="footer-text">
                 Page generated 2021-06-03, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
             </div>
-        </div>
-    </div>
+</div>
+</div>
 </body>
-
 </html>
