@@ -1,4 +1,13 @@
-/* Default css file for jemdoc. */
+/* Default css file for jemdoc. Responsive-stability version. */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
 
 table#tlayout {
     border: none;
@@ -7,34 +16,34 @@ table#tlayout {
 }
 
 body {
-	background: white;
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin: 0;
+    background: white;
+    font-family: Georgia, serif;
+    padding-bottom: 8px;
+    margin: 0;
 }
 
 #layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
-	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
-	width: auto;
-	white-space: nowrap;
+    background: #f6f6f6;
+    border: 1px solid #dddddd;
+    padding-top: 0.5em;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1.0em;
+    width: auto;
+    white-space: nowrap;
     text-align: left;
     vertical-align: top;
 }
 
 #layout-menu td {
-	background: #f4f4f4;
+    background: #f4f4f4;
     vertical-align: top;
 }
 
 #layout-content {
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+    padding-top: 0.0em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
     border: none;
     background: white;
     text-align: left;
@@ -42,8 +51,8 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
+    line-height: 1.5em;
+    margin-left: 0.5em;
 }
 
 tt {
@@ -51,88 +60,89 @@ tt {
 }
 
 pre, tt {
-	font-size: 90%;
-	font-family: monaco, monospace;
+    font-size: 90%;
+    font-family: monaco, monospace;
 }
 
 a, a > tt {
-	color: #224b8d;
-	text-decoration: none;
+    color: #224b8d;
+    text-decoration: none;
 }
 
 a:hover {
-	border-bottom: 1px gray dotted;
+    border-bottom: 1px gray dotted;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #ffd700;
-	border-bottom: 1px gray solid;
+    color: #ffd700;
+    border-bottom: 1px gray solid;
 }
+
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #527bbd;
-	text-decoration: none;
+    color: #527bbd;
+    text-decoration: none;
 }
+
 #layout-menu a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
-	font-weight: bold;
+    border-bottom: 1px solid gray;
+    margin-top: 0.8em;
+    padding-top: 0.2em;
+    padding-bottom: 0.1em;
+    font-weight: bold;
 }
 
 div.menu-item {
-	padding-left: 16px;
-	text-indent: -16px;
+    padding-left: 16px;
+    text-indent: -16px;
 }
 
 div#toptitle {
-	padding-bottom: 0.2em;
-	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+    padding-bottom: 0.2em;
+    margin-bottom: 1.5em;
+    border-bottom: 3px double gray;
 }
 
 /* Reduce space if we begin the page with a title. */
 div#toptitle + h2, div#toptitle + h3 {
-	margin-top: -0.7em;
+    margin-top: -0.7em;
 }
 
 div#subtitle {
-	margin-top: 0.0em;
-	margin-bottom: 0.0em;
-	padding-top: 0em;
-	padding-bottom: 0.1em;
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    padding-top: 0em;
+    padding-bottom: 0.1em;
 }
 
 em {
-	font-style: italic;
+    font-style: italic;
 }
 
 strong {
-	font-weight: bold;
+    font-weight: bold;
 }
 
-
 h1, h2, h3 {
-	color: #527bbd;
-	margin-top: 0.7em;
-	margin-bottom: 0.3em;
-	padding-bottom: 0.2em;
-	line-height: 1.0;
-	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
+    color: #527bbd;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.2em;
+    line-height: 1.0;
+    padding-top: 0.5em;
+    border-bottom: 1px solid #aaaaaa;
 }
 
 h1 {
-	font-size: 165%;
+    font-size: 165%;
 }
 
 h2 {
-	padding-top: 0.8em;
-	font-size: 125%;
+    padding-top: 0.8em;
+    font-size: 125%;
 }
 
 h2 + h3 {
@@ -140,199 +150,200 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
-	border-bottom: none;
+    font-size: 110%;
+    border-bottom: none;
 }
 
 p {
-	margin-top: 0.0em;
-	margin-bottom: 0.8em;
-	padding: 0;
-	line-height: 1.3;
+    margin-top: 0.0em;
+    margin-bottom: 0.8em;
+    padding: 0;
+    line-height: 1.3;
 }
 
 pre {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+    max-width: 100%;
 }
 
 div#footer {
-	font-size: small;
-	border-top: 1px solid #c0c0c0;
-	padding-top: 0.1em;
-	margin-top: 4.0em;
-	color: #c0c0c0;
+    font-size: small;
+    border-top: 1px solid #c0c0c0;
+    padding-top: 0.1em;
+    margin-top: 4.0em;
+    color: #c0c0c0;
 }
 
 div#footer a {
-	color: #80a0b0;
+    color: #80a0b0;
 }
 
 div#footer-text {
-	float: left;
-	padding-bottom: 8px;
+    float: left;
+    padding-bottom: 8px;
 }
 
 ul, ol, dl {
-	margin-top: 0.2em;
-	padding-top: 0;
-	margin-bottom: 0.8em;
+    margin-top: 0.2em;
+    padding-top: 0;
+    margin-bottom: 0.8em;
 }
 
 dt {
-	margin-top: 0.5em;
-	margin-bottom: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0;
 }
 
 dl {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 dd {
-	color: #222222;
+    color: #222222;
 }
 
 dd > *:first-child {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 ul {
-	list-style-position: outside;
-	list-style-type: square;
+    list-style-position: outside;
+    list-style-type: square;
 }
 
 p + ul, p + ol {
-	margin-top: -0.5em;
+    margin-top: -0.5em;
 }
 
 li ul, li ol {
-	margin-top: -0.3em;
+    margin-top: -0.3em;
 }
 
 ol {
-	list-style-position: outside;
-	list-style-type: decimal;
+    list-style-position: outside;
+    list-style-type: decimal;
 }
 
 li p, dd p {
-	margin-bottom: 0.3em;
+    margin-bottom: 0.3em;
 }
 
-
 ol ol {
-	list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
 }
 
 ol ol ol {
-	list-style-type: lower-roman;
+    list-style-type: lower-roman;
 }
 
 p + div.codeblock {
-	margin-top: -0.6em;
+    margin-top: -0.6em;
 }
 
 div.codeblock, div.infoblock {
-	margin-right: 0%;
-	margin-top: 1.2em;
-	margin-bottom: 1.3em;
+    margin-right: 0%;
+    margin-top: 1.2em;
+    margin-bottom: 1.3em;
 }
 
 div.blocktitle {
-	font-weight: bold;
-	color: #cd7b62;
-	margin-top: 1.2em;
-	margin-bottom: 0.1em;
+    font-weight: bold;
+    color: #cd7b62;
+    margin-top: 1.2em;
+    margin-bottom: 0.1em;
 }
 
 div.blockcontent {
-	border: 1px solid silver;
-	padding: 0.3em 0.5em;
+    border: 1px solid silver;
+    padding: 0.3em 0.5em;
 }
 
 div.infoblock > div.blockcontent {
-	background: #ffffee;
+    background: #ffffee;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
-	margin-top: 0.4em;
+    margin-top: 0.4em;
 }
 
 div.infoblock p {
-	margin-bottom: 0em;
+    margin-bottom: 0em;
 }
 
 div.infoblock li p, div.infoblock dd p {
-	margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 div.infoblock p + p {
-	margin-top: 0.8em;
+    margin-top: 0.8em;
 }
 
 div.codeblock > div.blockcontent {
-	background: #f6f6f6;
+    background: #f6f6f6;
 }
 
 span.pycommand {
-	color: #000070;
+    color: #000070;
 }
 
 span.statement {
-	color: #008800;
+    color: #008800;
 }
 span.builtin {
-	color: #000088;
+    color: #000088;
 }
 span.special {
-	color: #990000;
+    color: #990000;
 }
 span.operator {
-	color: #880000;
+    color: #880000;
 }
 span.error {
-	color: #aa0000;
+    color: #aa0000;
 }
 span.comment, span.comment > *, span.string, span.string > * {
-	color: #606060;
+    color: #606060;
 }
 
 @media print {
-	#layout-menu { display: none; }
+    #layout-menu { display: none; }
 }
 
 #fwtitle {
-	margin: 2px;
+    margin: 2px;
 }
 
 #fwtitle #toptitle {
-	padding-left: 0.5em;
-	margin-bottom: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 #layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
-	margin-top: -0.7em;
+    margin-top: -0.7em;
 }
 
 div#toptitle h1, #layout-content div#toptitle h1 {
-	margin-bottom: 0.0em;
-	padding-bottom: 0.1em;
-	padding-top: 0;
-	margin-top: 0.5em;
-	border-bottom: none;
+    margin-bottom: 0.0em;
+    padding-bottom: 0.1em;
+    padding-top: 0;
+    margin-top: 0.5em;
+    border-bottom: none;
 }
 
 img.eq {
-	padding: 0;
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	margin: 0;
+    padding: 0;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    margin: 0;
 }
 
 img.eqwl {
-	padding-left: 2em;
-	padding-top: 0.6em;
-	padding-bottom: 0.2em;
-	margin: 0;
+    padding-left: 2em;
+    padding-top: 0.6em;
+    padding-bottom: 0.2em;
+    margin: 0;
 }
 
 table {
@@ -359,9 +370,236 @@ tr.heading {
 
 img {
     border: none;
+    max-width: 100%;
+    height: auto;
 }
 
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+/* ------------------------------------------------------------------
+   Responsive stability patch for the current personal homepage.
+   This section intentionally uses stronger rules because several HTML
+   pages contain repeated inline <style> blocks after jemdoc.css.
+   ------------------------------------------------------------------ */
+
+body {
+    overflow-x: hidden;
+}
+
+#layout-menu {
+    max-width: 100vw;
+}
+
+#layout-content {
+    max-width: calc(100vw - 260px);
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+#layout-content a,
+#layout-content p,
+#layout-content li,
+#layout-content dd {
+    overflow-wrap: anywhere;
+}
+
+img,
+svg,
+video,
+canvas,
+iframe {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Safer image-table behavior for old jemdoc pages and profile/photo blocks. */
+table.imgtable {
+    width: 100% !important;
+    table-layout: auto;
+}
+
+table.imgtable td {
+    vertical-align: top;
+}
+
+table.imgtable img {
+    display: block;
+    max-width: min(100%, 420px) !important;
+    height: auto !important;
+    margin: 0 auto 0.8em auto;
+}
+
+/* Responsive gallery used by gro.html. */
+.gallery-grid {
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    gap: 24px;
+}
+
+.gallery-card {
+    text-align: center;
+    min-width: 0;
+}
+
+.gallery-card img {
+    display: block;
+    width: 100% !important;
+    max-width: 420px !important;
+    height: auto !important;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    object-fit: contain;
+}
+
+.gallery-card img:hover {
+    transform: scale(1.03);
+}
+
+.gallery-card p {
+    margin: 0;
+    line-height: 1.3;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+/* Desktop pages generated with the newer fixed left menu. */
+@media screen and (min-width: 769px) {
+    #layout-menu {
+        flex-shrink: 0;
+    }
+}
+
+/* Tablet and mobile: avoid hidden content caused by fixed side menu and fixed margins. */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 !important;
+    }
+
+    #layout-menu {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 12px 14px !important;
+        box-shadow: none !important;
+        white-space: normal !important;
+        overflow: visible !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    div.menu-category,
+    #layout-menu .menu-category {
+        margin-top: 0 !important;
+        margin-bottom: 8px !important;
+        padding-bottom: 6px !important;
+    }
+
+    div.menu-item,
+    #layout-menu .menu-item {
+        display: inline-block !important;
+        padding-left: 0 !important;
+        text-indent: 0 !important;
+        margin: 4px 10px 4px 0 !important;
+    }
+
+    #layout-menu a {
+        margin-left: 0 !important;
+        line-height: 1.7 !important;
+    }
+
+    #layout-content {
+        width: auto !important;
+        max-width: none !important;
+        margin: 12px !important;
+        padding: 14px !important;
+        border-radius: 8px !important;
+        overflow-x: hidden !important;
+    }
+
+    #toptitle h1,
+    div#toptitle h1,
+    #layout-content div#toptitle h1 {
+        font-size: clamp(1.8rem, 8vw, 2.4rem) !important;
+        line-height: 1.15 !important;
+    }
+
+    h1 {
+        font-size: clamp(1.6rem, 7vw, 2.2rem) !important;
+        line-height: 1.15 !important;
+    }
+
+    h2 {
+        font-size: clamp(1.25rem, 5.5vw, 1.7rem) !important;
+        line-height: 1.2 !important;
+    }
+
+    table:not(#tlayout):not(.imgtable) {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table#tlayout,
+    table#tlayout > tbody,
+    table#tlayout > tbody > tr,
+    table#tlayout > tbody > tr > td {
+        display: block !important;
+        width: 100% !important;
+        border: none !important;
+    }
+
+    table.imgtable,
+    table.imgtable > tbody,
+    table.imgtable > tbody > tr,
+    table.imgtable > tbody > tr > td {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    table.imgtable img {
+        max-width: 100% !important;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-card img {
+        max-width: 100% !important;
+    }
+
+    .gallery-card img:hover {
+        transform: none;
+    }
+
+    div#footer-text {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #layout-content {
+        margin: 8px !important;
+        padding: 12px !important;
+    }
+
+    ul, ol {
+        padding-left: 1.2em;
+    }
+
+    .gallery-grid {
+        gap: 18px;
+    }
 }
