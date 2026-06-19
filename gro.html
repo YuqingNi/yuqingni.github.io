@@ -1,397 +1,171 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group</title>
-    <link rel="stylesheet" href="jemdoc.css" type="text/css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Group</title>
+<link href="jemdoc.css" rel="stylesheet" type="text/css"/>
 
-        #layout-menu {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            padding: 20px;
-            width: 200px;
-            position: fixed;
-            height: 100%;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-        }
-
-        #layout-menu .menu-category {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        #layout-menu .menu-item {
-            margin: 10px 0;
-        }
-
-        #layout-menu .menu-item a {
-            color: #ecf0f1;
-            text-decoration: none;
-            font-size: 1em;
-        }
-
-        #layout-menu .menu-item a:hover {
-            color: #1abc9c;
-        }
-
-        #layout-content {
-            margin-left: 240px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-top: 20px;
-            margin-right: 20px;
-            overflow-x: hidden;
-        }
-
-        #toptitle h1 {
-            font-size: 2.5em;
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 1.8em;
-            color: #34495e;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #1abc9c;
-            padding-bottom: 5px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            background-color: #ecf0f1;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        ul li p {
-            margin: 0;
-            font-size: 1em;
-            color: #333;
-        }
-
-        .grade {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 15px;
-            list-style-type: none;
-            padding: 0;
-            margin-bottom: 30px;
-        }
-
-        .grade li {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            break-inside: avoid;
-        }
-
-        .grade li strong {
-            color: #2c3e50;
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        p {
-            margin: 0;
-        }
-
-        .gallery-grid {
-            width: 100%;
-            margin-top: 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
-            gap: 24px;
-        }
-
-        .gallery-card {
-            text-align: center;
-            min-width: 0;
-        }
-
-        .gallery-card img {
-            display: block;
-            width: 100%;
-            max-width: 420px;
-            height: auto;
-            margin: 0 auto 10px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-            object-fit: contain;
-        }
-
-        .gallery-card img:hover {
-            transform: scale(1.03);
-        }
-
-        .gallery-card p {
-            overflow-wrap: anywhere;
-            line-height: 1.3;
-        }
-
-        #footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            border-radius: 8px;
-        }
-
-        #footer a {
-            color: #1abc9c;
-            text-decoration: none;
-        }
-
-        #footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            .gallery-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery-card img {
-                max-width: 100%;
-            }
-
-            .gallery-card img:hover {
-                transform: none;
-            }
-
-            #layout-menu {
-                width: 100%;
-                height: auto;
-                position: static;
-                box-shadow: none;
-            }
-
-            #layout-content {
-                margin: 15px;
-                padding: 15px;
-            }
-
-            .grade {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            h2 {
-                font-size: 1.5em;
-            }
-
-            .grade li {
-                padding: 10px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <div id="layout-menu">
-        <div class="menu-category">倪雨青 Yuqing Ni</div>
-        <div class="menu-item"><a href="index.html">主页</a></div>
-        <div class="menu-item"><a href="wel.html">Welcome</a></div>
-        <div class="menu-item"><a href="bio.html">Biography</a></div>
-        <div class="menu-item"><a href="pub.html">Publications</a></div>
-        <div class="menu-item"><a href="act.html">Activities</a></div>
-        <div class="menu-item"><a href="gro.html" class="current">Group</a></div>
-        <div class="menu-item"><a href="misc.html">Miscellaneous</a></div>
-    </div>
-
-    <div id="layout-content">
-        <div id="toptitle">
-            <h1>Group</h1>
-        </div>
-
-        <h2>Master Students | 硕士生</h2>
-        <ul class="grade">
-            <li><strong>2025级</strong></li>
-            <li>
-                <p><strong>Zhen Xu</strong></p>
-                <p>本科毕业于江南大学（推免）</p>
-            </li>
-            <li>
-                <p><strong>Chang Zeng</strong></p>
-                <p>本科毕业于南昌航空大学</p>
-            </li>
-            <li>
-                <p><strong>Jianqiang Zhang</strong></p>
-                <p>本科毕业于江南大学</p>
-            </li>
-            <li>
-                <p><strong>Xia Huang</strong></p>
-                <p>本科毕业于西南民族大学（推免）</p>
-            </li>
-        </ul>
-
-        <ul class="grade">
-            <li><strong>2024级</strong></li>
-            <li>
-                <p><strong>Nuo Wang</strong></p>
-                <p>本科毕业于沈阳化工大学（推免）</p>
-            </li>
-            <li>
-                <p><strong>Zihou Yang</strong></p>
-                <p>本科毕业于郑州大学</p>
-            </li>
-            <li>
-                <p><strong>Yuhang Zhang</strong></p>
-                <p>本科毕业于江南大学</p>
-            </li>
-        </ul>
-
-        <ul class="grade">
-            <li><strong>2023级</strong></li>
-            <li>
-                <p><strong>Taiyu Zhang</strong></p>
-                <p>本科毕业于江南大学</p>
-            </li>
-        </ul>
-
-        <ul class="grade">
-            <li><strong>2022级</strong></li>
-            <li>
-                <p><strong>Yuhao Liu</strong></p>
-                <p>本科毕业于江南大学</p>
-            </li>
-            <li>
-                <p><strong>Shan Chen</strong></p>
-                <p>本科毕业于江南大学</p>
-            </li>
-        </ul>
-
-        <ul class="grade">
-            <li><strong>2021级</strong></li>
-            <li>
-                <p><strong>Xinxin Yang</strong></p>
-                <p>本科毕业于洛阳理工学院</p>
-            </li>
-        </ul>
-
-        <h2>Undergraduate Students | 本科生</h2>
-        <ul class="grade">
-            <li><strong>2024级</strong></li>
-            <li>
-                <p><strong>Youyu Ye</strong></p>
-                <p>江南大学自动化与智能科学学院本科生</p>
-            </li>
-        </ul>
-
-        <ul class="grade">
-            <li><strong>2023级</strong></li>
-            <li>
-                <p><strong>Xixin Huang</strong></p>
-                <p>江南大学自动化与智能科学学院本科生</p>
-            </li>
-            <li>
-                <p><strong>Shixin Xu</strong></p>
-                <p>江南大学自动化与智能科学学院本科生</p>
-            </li>
-            <li>
-                <p><strong>Yihang Chen</strong></p>
-                <p>江南大学自动化与智能科学学院本科生</p>
-            </li>
-            <li>
-                <p><strong>Nan Wang</strong></p>
-                <p>江南大学自动化与智能科学学院本科生</p>
-            </li>
-        </ul>
-
-        <ul class="grade">
-            <li><strong>2021级</strong></li>
-            <li>
-                <p><strong>Haonan Zhang</strong></p>
-                <p>江南大学物联网工程学院本科生，至善特别荣誉生</p>
-            </li>
-        </ul>
-
-        <ul class="grade">
-            <li><strong>2020级</strong></li>
-            <li>
-                <p><strong>Tianao Shen</strong></p>
-                <p>江南大学物联网工程学院本科生</p>
-            </li>
-            <li>
-                <p><strong>Hongye Wang</strong></p>
-                <p>江南大学物联网工程学院本科生</p>
-            </li>
-        </ul>
-
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-            <div class="gallery-card">
-                <img src="images/202406.jpg" alt="物联网工程学院" />
-                <p>物联网工程学院, Jun. 2024</p>
-                <p>Shan, Xinxin, Yuqing, Taiyu, Yuhao</p>
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/202411.jpg" alt="惠山" />
-                <p>惠山, Nov. 2024</p>
-                <p>Taiyu, Yuhao, Xinxin, Yuhang, Zihou, Yuqing, Nuo, Shan</p>
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/202506.jpg" alt="物联网工程学院" />
-                <p>物联网工程学院, Jun. 2025</p>
-                <p>Zhen, Qianyi, Yuqing, Mengyuan, Haonan</p>
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/202506-02.jpg" alt="江南大学图书馆" />
-                <p>江南大学图书馆, Jun. 2025</p>
-                <p>Yuhang, Zihou, Nuo, Shan, Yuqing, Taiyu</p>
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/202511.jpg" alt="惠山" />
-                <p>惠山, Nov. 2025</p>
-                <p>Zhen, Chang, Nuo, Yuqing, Zihou, Taiyu, Jianqiang, Yuhang</p>
-            </div>
-
-            <div class="gallery-card">
-                <img src="images/202606.jpg" alt="江南大学小蠡湖" />
-                <p>江南大学小蠡湖, Jun. 2026</p>
-                <p>Chang, Xia, Zhen, Yuqing, Taiyu, Nuo, Zihou, Yuhang, Jianqiang</p>
-            </div>
-        </div>
-
-        <div id="footer">
-            <div id="footer-text">
+<meta content="#0f172a" name="theme-color"/></head>
+<body class="page-group">
+<div aria-label="Main navigation" id="layout-menu" role="navigation">
+<div class="menu-category">倪雨青 Yuqing Ni</div>
+<div class="menu-item"><a aria-label="主页" href="index.html">主页</a></div>
+<div class="menu-item"><a aria-label="Welcome" href="wel.html">Welcome</a></div>
+<div class="menu-item"><a aria-label="Biography" href="bio.html">Biography</a></div>
+<div class="menu-item"><a aria-label="Publications" href="pub.html">Publications</a></div>
+<div class="menu-item"><a aria-label="Activities" href="act.html">Activities</a></div>
+<div class="menu-item"><a aria-label="Group" class="current" href="gro.html">Group</a></div>
+<div class="menu-item"><a aria-label="Miscellaneous" href="misc.html">Miscellaneous</a></div>
+</div>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Group</h1>
+</div>
+<h2>Master Students | 硕士生</h2>
+<ul class="grade">
+<li><strong>2025级</strong></li>
+<li>
+<p><strong>Zhen Xu</strong></p>
+<p>本科毕业于江南大学（推免）</p>
+</li>
+<li>
+<p><strong>Chang Zeng</strong></p>
+<p>本科毕业于南昌航空大学</p>
+</li>
+<li>
+<p><strong>Jianqiang Zhang</strong></p>
+<p>本科毕业于江南大学</p>
+</li>
+<li>
+<p><strong>Xia Huang</strong></p>
+<p>本科毕业于西南民族大学（推免）</p>
+</li>
+</ul>
+<ul class="grade">
+<li><strong>2024级</strong></li>
+<li>
+<p><strong>Nuo Wang</strong></p>
+<p>本科毕业于沈阳化工大学（推免）</p>
+</li>
+<li>
+<p><strong>Zihou Yang</strong></p>
+<p>本科毕业于郑州大学</p>
+</li>
+<li>
+<p><strong>Yuhang Zhang</strong></p>
+<p>本科毕业于江南大学</p>
+</li>
+</ul>
+<ul class="grade">
+<li><strong>2023级</strong></li>
+<li>
+<p><strong>Taiyu Zhang</strong></p>
+<p>本科毕业于江南大学</p>
+</li>
+</ul>
+<ul class="grade">
+<li><strong>2022级</strong></li>
+<li>
+<p><strong>Yuhao Liu</strong></p>
+<p>本科毕业于江南大学</p>
+</li>
+<li>
+<p><strong>Shan Chen</strong></p>
+<p>本科毕业于江南大学</p>
+</li>
+</ul>
+<ul class="grade">
+<li><strong>2021级</strong></li>
+<li>
+<p><strong>Xinxin Yang</strong></p>
+<p>本科毕业于洛阳理工学院</p>
+</li>
+</ul>
+<h2>Undergraduate Students | 本科生</h2>
+<ul class="grade">
+<li><strong>2024级</strong></li>
+<li>
+<p><strong>Youyu Ye</strong></p>
+<p>江南大学自动化与智能科学学院本科生</p>
+</li>
+</ul>
+<ul class="grade">
+<li><strong>2023级</strong></li>
+<li>
+<p><strong>Xixin Huang</strong></p>
+<p>江南大学自动化与智能科学学院本科生</p>
+</li>
+<li>
+<p><strong>Shixin Xu</strong></p>
+<p>江南大学自动化与智能科学学院本科生</p>
+</li>
+<li>
+<p><strong>Yihang Chen</strong></p>
+<p>江南大学自动化与智能科学学院本科生</p>
+</li>
+<li>
+<p><strong>Nan Wang</strong></p>
+<p>江南大学自动化与智能科学学院本科生</p>
+</li>
+</ul>
+<ul class="grade">
+<li><strong>2021级</strong></li>
+<li>
+<p><strong>Haonan Zhang</strong></p>
+<p>江南大学物联网工程学院本科生，至善特别荣誉生</p>
+</li>
+</ul>
+<ul class="grade">
+<li><strong>2020级</strong></li>
+<li>
+<p><strong>Tianao Shen</strong></p>
+<p>江南大学物联网工程学院本科生</p>
+</li>
+<li>
+<p><strong>Hongye Wang</strong></p>
+<p>江南大学物联网工程学院本科生</p>
+</li>
+</ul>
+<h2>Gallery</h2>
+<div class="gallery-grid group-gallery">
+<div class="gallery-card">
+<img alt="物联网工程学院" src="images/202406.jpg"/>
+<p>物联网工程学院, Jun. 2024</p>
+<p>Shan, Xinxin, Yuqing, Taiyu, Yuhao</p>
+</div>
+<div class="gallery-card">
+<img alt="惠山" src="images/202411.jpg"/>
+<p>惠山, Nov. 2024</p>
+<p>Taiyu, Yuhao, Xinxin, Yuhang, Zihou, Yuqing, Nuo, Shan</p>
+</div>
+<div class="gallery-card">
+<img alt="物联网工程学院" src="images/202506.jpg"/>
+<p>物联网工程学院, Jun. 2025</p>
+<p>Zhen, Qianyi, Yuqing, Mengyuan, Haonan</p>
+</div>
+<div class="gallery-card">
+<img alt="江南大学图书馆" src="images/202506-02.jpg"/>
+<p>江南大学图书馆, Jun. 2025</p>
+<p>Yuhang, Zihou, Nuo, Shan, Yuqing, Taiyu</p>
+</div>
+<div class="gallery-card">
+<img alt="惠山" src="images/202511.jpg"/>
+<p>惠山, Nov. 2025</p>
+<p>Zhen, Chang, Nuo, Yuqing, Zihou, Taiyu, Jianqiang, Yuhang</p>
+</div>
+<div class="gallery-card">
+<img alt="江南大学小蠡湖" src="images/202606.jpg"/>
+<p>江南大学小蠡湖, Jun. 2026</p>
+<p>Chang, Xia, Zhen, Yuqing, Taiyu, Nuo, Zihou, Yuhang, Jianqiang</p>
+</div>
+</div>
+<div class="site-footer" id="footer">
+<div id="footer-text">
                 Page generated 2021-06-03, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
             </div>
-        </div>
-    </div>
+</div>
+</div>
 </body>
-
 </html>
