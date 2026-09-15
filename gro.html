@@ -7,9 +7,14 @@
 <title>Group</title>
 <link href="jemdoc.css" rel="stylesheet" type="text/css"/>
 <style>
-  .page-group #layout-content ul.grade {
-    width: 100%;
+  .page-group #layout-content ul.grade > li:first-child {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    flex: 0 0 100px;
+    justify-self: start;
     box-sizing: border-box;
+    text-align: center;
   }
 </style>
   
